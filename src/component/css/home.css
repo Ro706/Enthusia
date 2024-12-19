@@ -1,0 +1,238 @@
+.home {
+  margin-top:-54px;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    background-color: black;
+    color:white;
+    padding-top: 80px; /* Adjust for navbar */
+    padding-bottom: 50px;
+    text-align: left;
+  }
+  iframe{
+    border-radius: 20px;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  h1{
+    font-size: 3.6rem;
+    margin-bottom: 1rem;
+  }
+ /* Sponsor Section */
+.sponsor {
+  margin: 2rem 0;
+  padding: 1rem 0;
+  background-color: #000000; /* Black background */
+  border-top: 2px ; /* White border on top */
+  border-bottom: 2px ; /* White border on bottom */
+}
+
+.sponsor marquee {
+  padding: 1rem 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ffffff; /* White text for better contrast */
+}
+
+.sponsor .box {
+  display: inline-block;
+  margin: 0 1.5rem;
+  padding: 2rem; /* Increased padding for larger size */
+  width: 400px; /* Explicit width for a larger box */
+  border: 2px solid #ffffff; /* White border around each box */
+  border-radius: 10px; /* Slightly more rounded corners */
+  background-color: #000000; /* Black background for each box */
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2); /* Enhanced shadow effect */
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  text-align: center; /* Ensures the content is aligned properly */
+}
+
+.sponsor .box:hover {
+  transform: scale(1.15); /* Slightly more zoom on hover */
+  background-color: #343a40; /* Dark grey background on hover */
+}
+
+.sponsor .box h2 {
+  margin: 0;
+  font-size: 1.5rem; /* Larger font size */
+  color: #ffffff; /* White text */
+}
+
+
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .embed-responsive {
+    position: relative;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    overflow: hidden;
+    max-width: 100%;
+  }
+  
+  .embed-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .timer {
+    background-color: #000000;
+    padding: 30px 0;
+    margin: 40px 0;
+  }
+  
+  .timer h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .timer-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  .time-item {
+    margin: 0 15px;
+    text-align: center;
+  }
+  
+  .time-number {
+    display: block;
+    font-size: 3rem;
+    color: #3498db;
+  }
+  .event-image {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+  } 
+ /* Style for the Gallery section */
+.gallery {
+  padding: 30px 0;
+  background-color: #000000; /* Light background color for the gallery */
+  text-align: center; /* Center the text */
+}
+
+.gallery h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #343a40; /* Dark text color */
+}
+
+.gallery-container {
+  display: flex; /* Use flexbox to align images in a row */
+  flex-wrap: nowrap; /* Prevent wrapping of images */
+  gap: 20px; /* Increased gap between images */
+  justify-content: center; /* Center the images horizontally */
+  max-width: 1200px; /* Max width for the gallery */
+  margin: 0 auto; /* Center the gallery */
+  overflow-x: auto; /* Allow horizontal scrolling on small screens */
+}
+
+.image {
+  width: 200px; /* Set width for the images */
+  height: 150px; /* Set a fixed height for the images */
+  object-fit: cover; /* Ensure the images cover the area without distortion */
+  border-radius: 8px; /* Add rounded corners to images */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add subtle shadow effect */
+  transition: transform 0.3s ease-in-out; /* Add smooth transition for hover effect */
+}
+
+.image:hover {
+  transform: scale(1.05); /* Slightly enlarge the image on hover */
+  cursor: pointer; /* Change cursor to pointer for interactivity */
+}
+
+/* Optional: Add responsive styles for medium screens (tablet, 768px) */
+@media (max-width: 768px) {
+  .gallery h2 {
+    font-size: 1.8rem;
+  }
+
+  .gallery-container {
+    justify-content: flex-start; /* Align images to the left on tablets */
+    gap: 10px; /* Reduced gap for tablet view */
+  }
+
+  .image {
+    width: 150px; /* Reduce image width on medium screens */
+    height: 120px; /* Adjust image height on medium screens */
+  }
+}
+
+/* Responsive style for smaller screens (mobile, 480px) */
+@media (max-width: 480px) {
+  .gallery-container {
+    justify-content: flex-start; /* Align images to the left on mobile */
+    gap: 8px; /* Reduce gap on mobile screens */
+  }
+
+  .image {
+    width: 130px; /* Reduce image size on smaller screens */
+    height: 100px; /* Adjust image height on smaller screens */
+  }
+}
+
+  @media screen and (max-width: 768px) {
+    .event-image {
+      width: 95%;
+      height: 80%;
+    }
+
+  }
+  .time-label {
+    font-size: 1rem;
+    color: #555;
+  }
+  .about-text {
+    max-height: 100px; /* Limit height for mobile view */
+    overflow: hidden;
+  }
+  
+  .about-text.expanded {
+    max-height: none; /* Show full text when expanded */
+  }
+  
+  @media (min-width: 768px) {
+    .about-text {
+      max-height: none; /* Full text visible on desktop */
+    }
+  
+    .btn-link {
+      display: none; /* Hide Read More button on desktop */
+    }
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .timer-display {
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap:10px;
+    }
+  
+    .time-item {
+      margin: 10px 0;
+    }
+  
+    .time-number {
+      font-size: 2rem;
+    }
+  }
+  
+  

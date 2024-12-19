@@ -3,11 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "clsx": "^2.1.1",
     "cra-template": "1.2.0",
+    "framer-motion": "^11.15.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.0.2",
     "react-scripts": "5.0.1",
+    "tailwind-merge": "^2.5.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
