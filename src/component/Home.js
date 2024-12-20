@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import ParticlesComponent from './particles';
 import './css/home.css';
 
 export default function Home() {
@@ -35,7 +36,8 @@ export default function Home() {
   };
 
   return (
-    <div className="home">
+      <div className="home">
+         <ParticlesComponent id="particles" />
       <h1 className="text-center">Enthusia</h1>
       <hr />
       <div className="container">
@@ -98,7 +100,7 @@ export default function Home() {
 
       {/* Sponsors Section */}
       <section className="sponsor">
-        <marquee behavior="scroll" direction="right" scrollamount="8" scrolldelay="100">
+        <marquee behavior="scroll" direction="right" scrollamount="20" scrolldelay="10">
           <div className="box">
             <h2>co-Sponsors</h2>
           </div>
@@ -119,7 +121,7 @@ export default function Home() {
       {/* Image Section */}
       <div className="col-md-4">
         <img 
-          src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+          src="./image/codehunt.webp" 
           className="event-image" 
           alt="Event Image"
         />
@@ -128,8 +130,8 @@ export default function Home() {
       {/* Content Section */}
       <div className="col-md-8">
         <div className="card-body">
-          <h5 className="card-title">Tech Expo</h5>
-          <p className="card-text">Join us for an exciting showcase of the latest innovations and cutting-edge projects at our Tech Expo. Witness the future of technology firsthand, from AI to robotics, and everything in between.</p>
+          <h5 className="card-title">SITnnovate</h5>
+          <p className="card-text fs-10">SITnnovate is a 24-hour hackathon that sparks creativity, innovation, and technical skills. Teams of three will brainstorm, code, and create groundbreaking projects with access to mentors, workshops, and resources. It's a chance to learn, network, and win exciting prizes. Whether you're a coding pro or a design enthusiast, SITnnovate promises an exhilarating journey of teamwork and discovery!</p>
         </div>
         <div className="card-footer text-center">
           <button className='btn btn-primary btn-lg'>Apply Now</button>
@@ -142,7 +144,7 @@ export default function Home() {
       {/* Image Section */}
       <div className="col-md-4">
         <img 
-          src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+          src="./image/compii.jpg" 
           className="event-image" 
           alt="Event Image"
         />
@@ -151,8 +153,8 @@ export default function Home() {
       {/* Content Section */}
       <div className="col-md-8">
         <div className="card-body">
-          <h5 className="card-title">Tech Expo</h5>
-          <p className="card-text">Join us for an exciting showcase of the latest innovations and cutting-edge projects at our Tech Expo. Witness the future of technology firsthand, from AI to robotics, and everything in between.</p>
+          <h5 className="card-title">SIT CodeSprint</h5>
+          <p className="card-text fs-12">SIT CodeSprint is a competitive coding event open to all years, featuring three challenging rounds. Solve problems in Round 1 to win "Time Turns" or "Clue Cracks." Round 2 ups the difficulty, giving top teams an edge, and Round 3 pits finalists against each other for the Ultimate Champion title. Show your skills and seize the opportunity to shine!</p>
         </div>
         <div className="card-footer text-center">
           <button className='btn btn-primary btn-lg'>Apply Now</button>
@@ -165,7 +167,7 @@ export default function Home() {
       {/* Image Section */}
       <div className="col-md-4">
         <img 
-          src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+          src="./image/SI-Tank.png" 
           className="event-image" 
           alt="Event Image"
         />
@@ -174,8 +176,8 @@ export default function Home() {
       {/* Content Section */}
       <div className="col-md-8">
         <div className="card-body">
-          <h5 className="card-title">Tech Expo</h5>
-          <p className="card-text">Join us for an exciting showcase of the latest innovations and cutting-edge projects at our Tech Expo. Witness the future of technology firsthand, from AI to robotics, and everything in between.</p>
+          <h5 className="card-title">SI Tank</h5>
+          <p className="card-text  fs-10">SI-Tank is an exciting platform at Symbiosis Institute of Technology where aspiring entrepreneurs pitch their innovative ideas to a panel of experienced investors and mentors. This event fosters creativity, collaboration, and provides valuable networking opportunities. Join us to explore, invest, and grow your entrepreneurial spirit!</p>
         </div>
         <div className="card-footer text-center">
           <button className='btn btn-primary btn-lg'>Apply Now</button>
@@ -202,7 +204,6 @@ export default function Home() {
     <img src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" alt="Gallery Image 1" className='image'/>
     <img src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" alt="Gallery Image 2" className='image'/>
     <img src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" alt="Gallery Image 3" className='image'/>
-    <img src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" alt="Gallery Image 4" className='image'/>
   </div>
 </section>
 <footer className="footer">

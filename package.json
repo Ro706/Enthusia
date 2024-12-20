@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@tsparticles/react": "^3.0.0",
+    "@tsparticles/slim": "^3.7.1",
     "clsx": "^2.1.1",
     "cra-template": "1.2.0",
     "framer-motion": "^11.15.0",
