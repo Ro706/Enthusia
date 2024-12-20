@@ -37,8 +37,8 @@ const Navbar = () => {
                             </li>
                         </ul>
                         <form className="d-flex ms-3" role="search">
-                        <input type="email" class="input" id="Email" name="Email" placeholder="example@gmail.com" autocomplete="off"/>
-                        <input class="button--submit" value="Subscribe" type="submit"/>
+                        <input type="email" className="input" id="Email" name="Email" placeholder="example@gmail.com" autocomplete="off"/>
+                        <input className="button--submit" value="Subscribe" type="submit"/>
                         </form>
                     </div>
                 </div>

@@ -1,0 +1,140 @@
+/* General Styles for the About Section */
+.About {
+    font-family: "Audiowide", sans-serif;
+    color: #d0cdcd;
+    padding: 20px;
+}
+
+/* Heading Styles */
+h1 {
+    font-size: 2.5rem;
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Video Section */
+#home {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+    overflow: hidden;
+}
+
+#home .video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#home video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+}
+
+/* About College Section */
+#about-college {
+    margin-top: 20px;
+    text-align: left;
+}
+.about-vision {
+    margin-top: 20px;
+    text-align: left;
+}
+#about-vision p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: #dddddd;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about-college p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: #dddddd;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Image Centering and Full-Screen Size */
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px; /* Make image width 100% */
+    height: 100vh; /* Make image height cover the screen */
+    object-fit: cover; /* Ensure the image covers the full screen */
+    border-radius: 30px; /* Optional: Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds shadow for better visibility */
+}
+/* Mobile Styles */
+@media (max-width: 767px) {
+    h1 {
+        font-size: 1.8rem; /* Smaller title size for mobile */
+    }
+
+    #about-college p {
+        font-size: 1rem; /* Adjust text size for mobile */
+        padding: 0 15px; /* Add padding for better readability */
+    }
+
+    #home {
+        height: 40vh; /* Make the video section smaller on mobile */
+    }
+
+    .image {
+        width: 100%; /* Ensure image fits on smaller screens */
+        height: 40vh; /* Limit height on mobile */
+        object-fit: cover; /* Maintain image aspect ratio */
+    }
+}
+
+/* Tablet/Small Desktop Styles */
+@media (min-width: 768px) and (max-width: 1024px) {
+    h1 {
+        font-size: 2.5rem; /* Medium title size for tablets */
+    }
+
+    #about-college p {
+        font-size: 1.1rem; /* Adjust text size for tablets */
+    }
+
+    #home {
+        height: 50vh; /* Adjust video section height for tablets */
+    }
+
+    .image {
+        width: 100%; /* Ensure image fits on tablets */
+        height: 50vh; /* Adjust height on tablets */
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+    h1 {
+        font-size: 3rem; /* Larger title for desktops */
+    }
+
+    #about-college p {
+        font-size: 1.2rem; /* Slightly larger text for desktop */
+        max-width: 900px; /* Increase width for larger screens */
+    }
+
+    #home {
+        height: 60vh; /* Full-height video section on desktop */
+    }
+
+    .image {
+        width: 100%; /* Ensure image fits on desktops */
+        height: 60vh; /* Full height image for desktop */
+    }
+}
