@@ -62,14 +62,14 @@ export default function Home() {
           {/* Right Column - YouTube Video */}
           <div className="col-md-6">
             <div className="embed-responsive embed-responsive-16by9">
-              <iframe 
-                className="embed-responsive-item" 
-                src="https://www.youtube.com/embed/-6glW3PkFIk?autoplay=1&loop=1&playlist=-6glW3PkFIk&controls=0&mute=1" 
-                title="Enthusia Highlights" 
-                allow="autoplay" 
-                style={{ pointerEvents: 'none' }} 
-                allowFullScreen
-              ></iframe>
+            <iframe
+              className="embed-responsive-item"
+              src="https://www.youtube.com/embed/-6glW3PkFIk?autoplay=1&loop=1&playlist=-6glW3PkFIk&controls=0&mute=1"
+              title="Enthusia Highlights"
+              allow="autoplay"
+              style={{ pointerEvents: "none", width: "100%", height: "100%" }}
+              allowFullScreen
+            ></iframe>
             </div>
           </div>
         </div>
@@ -134,7 +134,7 @@ export default function Home() {
           <p className="card-text fs-10">SITnnovate is a 24-hour hackathon that sparks creativity, innovation, and technical skills. Teams of three will brainstorm, code, and create groundbreaking projects with access to mentors, workshops, and resources. It's a chance to learn, network, and win exciting prizes. Whether you're a coding pro or a design enthusiast, SITnnovate promises an exhilarating journey of teamwork and discovery!</p>
         </div>
         <div className="card-footer text-center">
-          <button className='btn btn-primary btn-lg'>Apply Now</button>
+          <button className='btn btn-primary btn-lg' onClick={() => window.location.href = "/Apply"}>Apply Now</button>
         </div>
       </div>
     </div>
@@ -157,7 +157,7 @@ export default function Home() {
           <p className="card-text fs-12">SIT CodeSprint is a competitive coding event open to all years, featuring three challenging rounds. Solve problems in Round 1 to win "Time Turns" or "Clue Cracks." Round 2 ups the difficulty, giving top teams an edge, and Round 3 pits finalists against each other for the Ultimate Champion title. Show your skills and seize the opportunity to shine!</p>
         </div>
         <div className="card-footer text-center">
-          <button className='btn btn-primary btn-lg'>Apply Now</button>
+          <button className='btn btn-primary btn-lg' onClick={() => window.location.href = "/Apply"}>Apply Now</button>
         </div>
       </div>
     </div>
@@ -180,7 +180,7 @@ export default function Home() {
           <p className="card-text  fs-10">SI-Tank is an exciting platform at Symbiosis Institute of Technology where aspiring entrepreneurs pitch their innovative ideas to a panel of experienced investors and mentors. This event fosters creativity, collaboration, and provides valuable networking opportunities. Join us to explore, invest, and grow your entrepreneurial spirit!</p>
         </div>
         <div className="card-footer text-center">
-          <button className='btn btn-primary btn-lg'>Apply Now</button>
+          <button className='btn btn-primary btn-lg' onClick={() => window.location.href = "/Apply"}>Apply Now</button>
         </div>
       </div>
     </div>

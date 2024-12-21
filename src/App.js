@@ -7,6 +7,7 @@ import About from './component/About';
 import Home from './component/Home';
 import Sponsor from './component/Sponsor';
 import Contact from './component/Contact';
+import Apply from './component/Apply';
 const App = () => {
   return (
     <div className='App'>
@@ -17,6 +18,7 @@ const App = () => {
           <Route path='/About' element={<About/>} />
           <Route path='/Sponsor' element={<Sponsor/>} />
           <Route path='/Contact' element={<Contact />} />
+          <Route path='/Apply' element={<Apply />} />
         </Routes>
       </Router>
     </div>
