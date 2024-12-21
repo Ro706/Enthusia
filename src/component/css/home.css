@@ -99,7 +99,7 @@
   .timer h2 {
     font-size: 2.5rem;
     font-weight: 700;
-    color: #333;
+    color: #cccccc;
     margin-bottom: 20px;
   }
   
@@ -136,7 +136,7 @@
 .gallery h2 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #343a40; /* Dark text color */
+  color: #ffffff; /* Dark text color */
 }
 
 .gallery-container {
@@ -203,7 +203,7 @@
   }
   .time-label {
     font-size: 1rem;
-    color: #555;
+    color: #eeeded;
   }
   .about-text {
     max-height: 100px; /* Limit height for mobile view */
