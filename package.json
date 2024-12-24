@@ -9,9 +9,9 @@
     "cra-template": "1.2.0",
     "framer-motion": "^11.15.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0", 
+    "react-dom": "^19.0.0",
     "react-router-dom": "^7.0.2",
-    "react-scripts": "5.0.1",  
+    "react-scripts": "5.0.1",
     "tailwind-merge": "^2.5.5",
     "web-vitals": "^2.1.4"
   },
@@ -38,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }
