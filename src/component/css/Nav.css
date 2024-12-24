@@ -35,7 +35,6 @@ img{
     border-color: #3898EC;
     outline: none;
   }
-  
 @media screen and (max-width: 600px) {
     img{
         width: 80px;

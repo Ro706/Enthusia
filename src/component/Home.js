@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import ParticlesComponent from './particles';
+import  codehunt from './image/codehunt.webp';
+import compii from './image/compii.jpg';
+import SI_Tank from './image/SI-tank.png';
 import './css/home.css';
 
 export default function Home() {
@@ -36,7 +39,7 @@ export default function Home() {
   };
 
   return (
-      <div className="home">
+    <div className="home">
          <ParticlesComponent id="particles" />
       <h1 className="text-center">Enthusia</h1>
       <hr />
@@ -115,97 +118,135 @@ export default function Home() {
 
       {/* Events Section */}
       <section className="events">
-  <h2 className='text-center text-decoration-underline'>Events</h2>
+  <h2 className="text-center text-decoration-underline">Events</h2>
+  {/* Event 1 */}
   <div className="card mb-3 bg-black text-white border-1 border-white" style={{ maxWidth: "700px", margin: "0 auto" }}>
     <div className="row g-0">
-      {/* Image Section */}
       <div className="col-md-4">
         <img 
-          src="./image/codehunt.webp" 
+          src={codehunt} 
           className="event-image" 
-          alt="Event Image"
+          alt="Code Hunt Event Image"
         />
       </div>
-
-      {/* Content Section */}
       <div className="col-md-8">
         <div className="card-body">
           <h5 className="card-title">SITnnovate</h5>
-          <p className="card-text fs-10">SITnnovate is a 24-hour hackathon that sparks creativity, innovation, and technical skills. Teams of three will brainstorm, code, and create groundbreaking projects with access to mentors, workshops, and resources. It's a chance to learn, network, and win exciting prizes. Whether you're a coding pro or a design enthusiast, SITnnovate promises an exhilarating journey of teamwork and discovery!</p>
+          <p className="card-text fs-10">
+            SITnnovate is a 24-hour hackathon that sparks creativity, innovation, and technical skills. Teams of three will brainstorm, code, and create groundbreaking projects with access to mentors, workshops, and resources. It's a chance to learn, network, and win exciting prizes. Whether you're a coding pro or a design enthusiast, SITnnovate promises an exhilarating journey of teamwork and discovery!
+          </p>
         </div>
         <div className="card-footer text-center">
-          <button className='btn btn-primary btn-lg' onClick={() => window.location.href = "/Apply"}>Apply Now</button>
+          <button className="btn btn-primary btn-lg" onClick={() => window.location.href = "/Apply"}>Apply Now</button>
         </div>
       </div>
     </div>
   </div>
+
+  {/* Event 2 */}
   <div className="card mb-3 bg-black text-white border-1 border-white" style={{ maxWidth: "700px", margin: "0 auto" }}>
     <div className="row g-0">
-      {/* Image Section */}
       <div className="col-md-4">
         <img 
-          src="./image/compii.jpg" 
+          src={compii} 
           className="event-image" 
-          alt="Event Image"
+          alt="Competitive Coding Event Image"
         />
       </div>
-
-      {/* Content Section */}
       <div className="col-md-8">
         <div className="card-body">
           <h5 className="card-title">SIT CodeSprint</h5>
-          <p className="card-text fs-12">SIT CodeSprint is a competitive coding event open to all years, featuring three challenging rounds. Solve problems in Round 1 to win "Time Turns" or "Clue Cracks." Round 2 ups the difficulty, giving top teams an edge, and Round 3 pits finalists against each other for the Ultimate Champion title. Show your skills and seize the opportunity to shine!</p>
+          <p className="card-text fs-12">
+            SIT CodeSprint is a competitive coding event open to all years, featuring three challenging rounds. Solve problems in Round 1 to win "Time Turns" or "Clue Cracks." Round 2 ups the difficulty, giving top teams an edge, and Round 3 pits finalists against each other for the Ultimate Champion title. Show your skills and seize the opportunity to shine!
+          </p>
         </div>
         <div className="card-footer text-center">
-          <button className='btn btn-primary btn-lg' onClick={() => window.location.href = "/Apply"}>Apply Now</button>
+          <button className="btn btn-primary btn-lg" onClick={() => window.location.href = "/Apply"}>Apply Now</button>
         </div>
       </div>
     </div>
   </div>
+
+  {/* Event 3 */}
   <div className="card mb-3 bg-black text-white border-1 border-white" style={{ maxWidth: "700px", margin: "0 auto" }}>
     <div className="row g-0">
-      {/* Image Section */}
       <div className="col-md-4">
         <img 
-          src="./image/SI-Tank.png" 
+          src={SI_Tank} 
           className="event-image" 
-          alt="Event Image"
+          alt="SI Tank Event Image"
         />
       </div>
-
-      {/* Content Section */}
       <div className="col-md-8">
         <div className="card-body">
           <h5 className="card-title">SI Tank</h5>
-          <p className="card-text  fs-10">SI-Tank is an exciting platform at Symbiosis Institute of Technology where aspiring entrepreneurs pitch their innovative ideas to a panel of experienced investors and mentors. This event fosters creativity, collaboration, and provides valuable networking opportunities. Join us to explore, invest, and grow your entrepreneurial spirit!</p>
+          <p className="card-text fs-10">
+            SI-Tank is an exciting platform at Symbiosis Institute of Technology where aspiring entrepreneurs pitch their innovative ideas to a panel of experienced investors and mentors. This event fosters creativity, collaboration, and provides valuable networking opportunities. Join us to explore, invest, and grow your entrepreneurial spirit!
+          </p>
         </div>
         <div className="card-footer text-center">
-          <button className='btn btn-primary btn-lg' onClick={() => window.location.href = "/Apply"}>Apply Now</button>
+          <button className="btn btn-primary btn-lg" onClick={() => window.location.href = "/Apply"}>Apply Now</button>
         </div>
       </div>
     </div>
   </div>
 </section>
 <section className="gallery">
-  <h2 className='text-center text-decoration-underline'>Gallery</h2>
+  <h2 className="text-center text-decoration-underline">Gallery</h2>
   <div className="gallery-container">
-    <img src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" alt="Gallery Image 1" className='image'/>
-    <img src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" alt="Gallery Image 2" className='image'/>
-    <img src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" alt="Gallery Image 3" className='image'/>
-    <img src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" alt="Gallery Image 4" className='image'/>
-    <img src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" alt="Gallery Image 1" className='image'/>
-    <img src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" alt="Gallery Image 2" className='image'/>
-    <img src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" alt="Gallery Image 3" className='image'/>
-    <img src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" alt="Gallery Image 4" className='image'/>
-    <img src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" alt="Gallery Image 1" className='image'/>
-    <img src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" alt="Gallery Image 2" className='image'/>
-    <img src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" alt="Gallery Image 3" className='image'/>
-    <img src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" alt="Gallery Image 4" className='image'/>
-    <img src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" alt="Gallery Image 1" className='image'/>
-    <img src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" alt="Gallery Image 2" className='image'/>
-    <img src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" alt="Gallery Image 3" className='image'/>
+    <img 
+      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      alt="Gallery Image 1" 
+      className="image"
+    />
+    <img 
+      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      alt="Gallery Image 2" 
+      className="image"
+    />
+    <img 
+      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      alt="Gallery Image 3" 
+      className="image"
+    />
+    <img 
+      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      alt="Gallery Image 4" 
+      className="image"
+    />
+    <img 
+      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      alt="Gallery Image 5" 
+      className="image"
+    />
+    <img 
+      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      alt="Gallery Image 6" 
+      className="image"
+    />
+    <img 
+      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      alt="Gallery Image 7" 
+      className="image"
+    />
+    <img 
+      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      alt="Gallery Image 8" 
+      className="image"
+    />
+    <img 
+      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      alt="Gallery Image 9" 
+      className="image"
+    />
+    <img 
+      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      alt="Gallery Image 10" 
+      className="image"
+    />
   </div>
 </section>
+
 <footer className="footer">
         <p className='text-center'>&copy; 2025 Enthusia. All rights reserved.</p>
 </footer>

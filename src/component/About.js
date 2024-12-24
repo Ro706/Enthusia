@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ParticlesComponent from './particles';
+import SIT from './image/SIT.png'; // Correct way to import a default export
 import './css/about.css'; // Import CSS file
 
 export default function About() {
@@ -40,7 +41,7 @@ export default function About() {
           {/* Right Column - YouTube Video */}
           <div className="col-md-6">
             <div className="embed-responsive embed-responsive-16by9">
-            <img src="./image/SIT.png" alt="SIT" className="embed-responsive-item" />
+            <img src={SIT} alt="SIT" className="embed-responsive-item" />
             </div>
           </div>
         </div>
