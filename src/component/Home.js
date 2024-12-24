@@ -119,78 +119,85 @@ export default function Home() {
       {/* Events Section */}
       <section className="events">
   <h2 className="text-center text-decoration-underline">Events</h2>
-  {/* Event 1 */}
-  <div className="card mb-3 bg-black text-white border-1 border-white" style={{ maxWidth: "700px", margin: "0 auto" }}>
-    <div className="row g-0">
-      <div className="col-md-4">
-        <img 
-          src={codehunt} 
-          className="event-image" 
-          alt="Code Hunt Event Image"
-        />
-      </div>
-      <div className="col-md-8">
+  <div className="row justify-content-center">
+    {/* Event 1 */}
+    <div className="col-md-4 mb-3">
+      <div className="card bg-black text-white border-1 border-white">
         <div className="card-body">
-          <h5 className="card-title">SITnnovate</h5>
+          <img 
+            src={codehunt} 
+            className="event-image" 
+            alt="Code Hunt Event Image" 
+            style={{
+              width: "100%", 
+              height: "200px", 
+              objectFit: "cover" // Ensures image is cropped if it exceeds aspect ratio
+            }} 
+          />
+          <h5 className="card-title mt-3">SITnnovate</h5>
           <p className="card-text fs-10">
             SITnnovate is a 24-hour hackathon that sparks creativity, innovation, and technical skills. Teams of three will brainstorm, code, and create groundbreaking projects with access to mentors, workshops, and resources. It's a chance to learn, network, and win exciting prizes. Whether you're a coding pro or a design enthusiast, SITnnovate promises an exhilarating journey of teamwork and discovery!
           </p>
-        </div>
-        <div className="card-footer text-center">
-          <button className="btn btn-primary btn-lg" onClick={() => window.location.href = "/Apply"}>Apply Now</button>
+          <div className="text-center">
+            <button className="btn btn-primary btn-lg" onClick={() => window.location.href = "/Apply"}>Apply Now</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  {/* Event 2 */}
-  <div className="card mb-3 bg-black text-white border-1 border-white" style={{ maxWidth: "700px", margin: "0 auto" }}>
-    <div className="row g-0">
-      <div className="col-md-4">
-        <img 
-          src={compii} 
-          className="event-image" 
-          alt="Competitive Coding Event Image"
-        />
-      </div>
-      <div className="col-md-8">
+    {/* Event 2 */}
+    <div className="col-md-4 mb-3">
+      <div className="card bg-black text-white border-1 border-white">
         <div className="card-body">
-          <h5 className="card-title">SIT CodeSprint</h5>
+          <img 
+            src={compii} 
+            className="event-image" 
+            alt="Competitive Coding Event Image"
+            style={{
+              width: "100%", 
+              height: "200px", 
+              objectFit: "cover" // Ensures image is cropped if it exceeds aspect ratio
+            }} 
+          />
+          <h5 className="card-title mt-3">SIT CodeSprint</h5>
           <p className="card-text fs-12">
             SIT CodeSprint is a competitive coding event open to all years, featuring three challenging rounds. Solve problems in Round 1 to win "Time Turns" or "Clue Cracks." Round 2 ups the difficulty, giving top teams an edge, and Round 3 pits finalists against each other for the Ultimate Champion title. Show your skills and seize the opportunity to shine!
           </p>
-        </div>
-        <div className="card-footer text-center">
-          <button className="btn btn-primary btn-lg" onClick={() => window.location.href = "/Apply"}>Apply Now</button>
+          <div className="text-center">
+            <button className="btn btn-primary btn-lg" onClick={() => window.location.href = "/Apply"}>Apply Now</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-  {/* Event 3 */}
-  <div className="card mb-3 bg-black text-white border-1 border-white" style={{ maxWidth: "700px", margin: "0 auto" }}>
-    <div className="row g-0">
-      <div className="col-md-4">
-        <img 
-          src={SI_Tank} 
-          className="event-image" 
-          alt="SI Tank Event Image"
-        />
-      </div>
-      <div className="col-md-8">
+    {/* Event 3 */}
+    <div className="col-md-4 mb-3">
+      <div className="card bg-black text-white border-1 border-white">
         <div className="card-body">
-          <h5 className="card-title">SI Tank</h5>
+          <img 
+            src={SI_Tank} 
+            className="event-image" 
+            alt="SI Tank Event Image"
+            style={{
+              width: "100%", 
+              height: "200px", 
+              objectFit: "cover" // Ensures image is cropped if it exceeds aspect ratio
+            }} 
+          />
+          <h5 className="card-title mt-3">SI Tank</h5>
           <p className="card-text fs-10">
             SI-Tank is an exciting platform at Symbiosis Institute of Technology where aspiring entrepreneurs pitch their innovative ideas to a panel of experienced investors and mentors. This event fosters creativity, collaboration, and provides valuable networking opportunities. Join us to explore, invest, and grow your entrepreneurial spirit!
           </p>
-        </div>
-        <div className="card-footer text-center">
-          <button className="btn btn-primary btn-lg" onClick={() => window.location.href = "/Apply"}>Apply Now</button>
+          <div className="text-center">
+            <button className="btn btn-primary btn-lg" onClick={() => window.location.href = "/Apply"}>Apply Now</button>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+
 <section className="gallery">
   <h2 className="text-center text-decoration-underline">Gallery</h2>
   <div className="gallery-container">
