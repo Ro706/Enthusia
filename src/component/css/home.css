@@ -68,7 +68,10 @@
   font-size: 1.5rem; /* Larger font size */
   color: #ffffff; /* White text */
 }
-
+.about-text{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 200;
+}
 
   p {
     font-size: 1rem;
