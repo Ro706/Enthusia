@@ -8,6 +8,7 @@ import Home from './component/Home';
 import Sponsor from './component/Sponsor';
 import Contact from './component/Contact';
 import Apply from './component/Apply';
+import Eventpage from './component/Eventpage';
 const App = () => {
   return (
     <div className='App'>
@@ -16,6 +17,7 @@ const App = () => {
         <Routes> {/* Wrap Routes */}
           <Route path='/' element={<Home />} />
           <Route path='/About' element={<About/>} />
+          <Route path='/Event' element={<Eventpage/>} />
           <Route path='/Sponsor' element={<Sponsor/>} />
           <Route path='/Contact' element={<Contact />} />
           <Route path='/Apply' element={<Apply />} />

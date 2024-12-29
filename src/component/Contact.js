@@ -37,18 +37,21 @@ export default function Contact() {
           <h2>📍 Our Address</h2>
           <p><strong>Address:</strong> Symbiosis Institute of Technology, Wathoda Layout, Nagpur, Maharashtra 440008</p>
           <p><strong>Website:</strong> <a href="https://sitnagpur.edu.in/" target="_blank" rel="noopener noreferrer">https://sitnagpur.edu.in/</a></p>
-          <p><strong>Phone:</strong> +91 7126192370</p>
+          <p><strong>Email:</strong> <a href="mailto:src.sit@sitnagpur.siu.edu.in">src.sit@sitnagpur.siu.edu.in</a></p>
+          <p><strong>Phone:</strong> +91 9834832470</p>
           <p><strong>Location:</strong> Symbiosis Institute of Technology, Nagpur</p>
           <div className="social-icons">
             <a href="https://www.facebook.com/SITNagpur24/" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Facebook">🌐 Facebook</a>
             <a href="https://x.com/sitnagpur" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Twitter">🌐 Twitter</a>
             <a href="https://www.instagram.com/symbiosis_sit_nagpur/" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="Instagram">🌐 Instagram</a>
+            <a href="https://www.linkedin.com/school/symbiosis-institute-of-technology-nagpur-maharashtra/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className="social-link" aria-label="LinkedIn">🌐 LinkedIn</a>
+            {/* https://www.linkedin.com/school/symbiosis-institute-of-technology-nagpur-maharashtra/posts/?feedView=all */}
           </div>
         </div>
       </section>
 
       {/* Map Section */}
-      <section className="map-section">
+      {/* <section className="map-section">
         <h2>📌 Find Us Here</h2>
           <iframe
             title="Google Map"
@@ -58,7 +61,7 @@ export default function Contact() {
             allowFullScreen=""
             loading="lazy"
           />
-      </section>
+      </section> */}
     </div>
   );
 }

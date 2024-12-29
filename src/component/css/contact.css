@@ -1,8 +1,8 @@
 /* General Styling */
 .contact-page {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     margin: 20px;
-    color: #cccbcb;
+    color: #ffffff00;
   }
   #particles {
     position: fixed;
@@ -24,7 +24,7 @@
   
   .contact-header p {
     font-size: 1.2rem;
-    color: #666;
+    color: #ffffff;
     margin-top: 10px;
   }
   
@@ -40,7 +40,8 @@
   /* Contact Form Styling */
   .contact-form {
     flex: 1 1 45%;
-    background-color: #f0f8ff;
+    border: 2px solid #6d6b6a;
+    background-color: #000000cb;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -60,7 +61,7 @@
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
-    color: #333;
+    color: #f4f4f4;
   }
   
   .form-group input,
@@ -96,7 +97,8 @@
   /* Contact Details Styling */
   .contact-details {
     flex: 1 1 45%;
-    background-color: #fdf7e6;
+    background-color: #00000083;
+    border: 2px solid #6d6b6a;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -111,7 +113,7 @@
   .contact-details p {
     font-size: 1rem;
     margin-bottom: 10px;
-    color: #444;
+    color: #f9f9f9;
   }
   
 /* Social Icons Styling */

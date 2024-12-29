@@ -30,11 +30,15 @@ const Navbar = () => {
                                 <Link className="nav-link" to="/About">About</Link>
                             </li>
                             <li className="nav-item">
+                                <Link className="nav-link" to="/Event">Event</Link>
+                            </li>
+                            <li className="nav-item">
                                 <Link className="nav-link" to="/Sponsor">Sponsor</Link>
                             </li>
                             <li className="nav-item">
                                 <Link className="nav-link" to="/Contact">Contact</Link>
                             </li>
+                            
                         </ul>
                         <form className="d-flex ms-3" role="search">
                         <input type="email" className="input" id="Email" name="Email" placeholder="example@gmail.com" autocomplete="off"/>
