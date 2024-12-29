@@ -3,6 +3,21 @@ import ParticlesComponent from './particles'; // Import ParticlesComponent for b
 import './css/sponsor.css'; // Import CSS for styling
 
 export default function Sponsor() {
+  // Array of sponsor data
+  const sponsors = [
+    { name: "Title Sponsor", imgSrc: "https://example.com/title-sponsor-logo.png" },
+    { name: "Co-Sponsor 1", imgSrc: "https://example.com/co-sponsor1-logo.png" },
+    { name: "Co-Sponsor 2", imgSrc: "https://example.com/co-sponsor2-logo.png" },
+    { name: "Travel Partner", imgSrc: "https://example.com/travel-partner-logo.png" },
+    { name: "Media Partner 1", imgSrc: "https://example.com/media-partner1-logo.png" },
+    { name: "Media Partner 2", imgSrc: "https://example.com/media-partner2-logo.png" },
+    { name: "Media Partner 3", imgSrc: "https://example.com/media-partner3-logo.png" },
+    { name: "Event Sponsor 1", imgSrc: "https://example.com/event-sponsor1-logo.png" },
+    { name: "Event Sponsor 2", imgSrc: "https://example.com/event-sponsor2-logo.png" },
+    { name: "Event Sponsor 3", imgSrc: "https://example.com/event-sponsor3-logo.png" },
+    // Repeat the above array items for more sponsors (up to 20 as per your requirement)
+  ];
+
   return (
     <div className="sponsor-page">
       <ParticlesComponent id="particles" />
@@ -13,115 +28,102 @@ export default function Sponsor() {
         </p>
       </header>
 
+      {/* Title Sponsor Section */}
       <section className="sponsor-category">
         <h2 className="text-center">Title Sponsor</h2>
         <div className="logo-grid">
-          <div className="sponsor-box">
-            <img 
-              src="https://media.istockphoto.com/vectors/rubber-stamp-with-sponsor-concept-vector-id995710774?k=20&m=995710774&s=612x612&w=0&h=D6PJftdsm2xftnYV8YmZhxLkV5QEfWICaJ_EF1dddW8="
-              alt="Title Sponsor" 
-              className="sponsor-logo" 
-            />
-          </div>
+          {sponsors.slice(0, 1).map((sponsor, index) => (
+            <div className="sponsor-box" key={index}>
+              <img 
+                src={sponsor.imgSrc} 
+                alt={sponsor.name} 
+                className="sponsor-logo" 
+                loading="lazy"
+              />
+            </div>
+          ))}
         </div>
       </section>
 
+      {/* Co-Sponsors Section */}
       <section className="sponsor-category">
         <h2 className="text-center">Co-Sponsors</h2>
         <div className="logo-grid">
-          <div className="sponsor-box">
-            <img 
-              src="https://media.istockphoto.com/vectors/rubber-stamp-with-sponsor-concept-vector-id995710774?k=20&m=995710774&s=612x612&w=0&h=D6PJftdsm2xftnYV8YmZhxLkV5QEfWICaJ_EF1dddW8="
-              alt="Co-Sponsor 1" 
-              className="sponsor-logo" 
-            />
-          </div>
-          <div className="sponsor-box">
-            <img 
-              src="https://media.istockphoto.com/vectors/rubber-stamp-with-sponsor-concept-vector-id995710774?k=20&m=995710774&s=612x612&w=0&h=D6PJftdsm2xftnYV8YmZhxLkV5QEfWICaJ_EF1dddW8="
-              alt="Co-Sponsor 2" 
-              className="sponsor-logo" 
-            />
-          </div>
+          {sponsors.slice(1, 3).map((sponsor, index) => (
+            <div className="sponsor-box" key={index}>
+              <img 
+                src={sponsor.imgSrc} 
+                alt={sponsor.name} 
+                className="sponsor-logo" 
+                loading="lazy"
+              />
+            </div>
+          ))}
         </div>
       </section>
 
+      {/* Travel Partner Section */}
       <section className="sponsor-category">
         <h2 className="text-center">Travel Partner</h2>
         <div className="logo-grid">
-          <div className="sponsor-box">
-            <img 
-              src="https://media.istockphoto.com/vectors/rubber-stamp-with-sponsor-concept-vector-id995710774?k=20&m=995710774&s=612x612&w=0&h=D6PJftdsm2xftnYV8YmZhxLkV5QEfWICaJ_EF1dddW8="
-              alt="Travel Partner" 
-              className="sponsor-logo" 
-            />
-          </div>
+          {sponsors.slice(3, 4).map((sponsor, index) => (
+            <div className="sponsor-box" key={index}>
+              <img 
+                src={sponsor.imgSrc} 
+                alt={sponsor.name} 
+                className="sponsor-logo" 
+                loading="lazy"
+              />
+            </div>
+          ))}
         </div>
       </section>
 
+      {/* Media Partners Section */}
       <section className="sponsor-category">
         <h2 className="text-center">Media Partners</h2>
         <div className="logo-grid">
-          <div className="sponsor-box">
-            <img 
-              src="https://media.istockphoto.com/vectors/rubber-stamp-with-sponsor-concept-vector-id995710774?k=20&m=995710774&s=612x612&w=0&h=D6PJftdsm2xftnYV8YmZhxLkV5QEfWICaJ_EF1dddW8="
-              alt="Media Partner 1" 
-              className="sponsor-logo" 
-            />
-          </div>
-          <div className="sponsor-box">
-            <img 
-              src="https://media.istockphoto.com/vectors/rubber-stamp-with-sponsor-concept-vector-id995710774?k=20&m=995710774&s=612x612&w=0&h=D6PJftdsm2xftnYV8YmZhxLkV5QEfWICaJ_EF1dddW8="
-              alt="Media Partner 2" 
-              className="sponsor-logo" 
-            />
-          </div>
-          <div className="sponsor-box">
-            <img 
-              src="https://media.istockphoto.com/vectors/rubber-stamp-with-sponsor-concept-vector-id995710774?k=20&m=995710774&s=612x612&w=0&h=D6PJftdsm2xftnYV8YmZhxLkV5QEfWICaJ_EF1dddW8="
-              alt="Media Partner 3" 
-              className="sponsor-logo" 
-            />
-          </div>
+          {sponsors.slice(4, 7).map((sponsor, index) => (
+            <div className="sponsor-box" key={index}>
+              <img 
+                src={sponsor.imgSrc} 
+                alt={sponsor.name} 
+                className="sponsor-logo" 
+                loading="lazy"
+              />
+            </div>
+          ))}
         </div>
       </section>
 
+      {/* Event Sponsors Section */}
       <section className="sponsor-category">
         <h2 className="text-center">Event Sponsors</h2>
         <div className="logo-grid">
-          <div className="sponsor-box">
-            <img 
-              src="https://media.istockphoto.com/vectors/rubber-stamp-with-sponsor-concept-vector-id995710774?k=20&m=995710774&s=612x612&w=0&h=D6PJftdsm2xftnYV8YmZhxLkV5QEfWICaJ_EF1dddW8="
-              alt="Event Sponsor 1" 
-              className="sponsor-logo" 
-            />
-          </div>
-          <div className="sponsor-box">
-            <img 
-              src="https://media.istockphoto.com/vectors/rubber-stamp-with-sponsor-concept-vector-id995710774?k=20&m=995710774&s=612x612&w=0&h=D6PJftdsm2xftnYV8YmZhxLkV5QEfWICaJ_EF1dddW8="
-              alt="Event Sponsor 2" 
-              className="sponsor-logo" 
-            />
-          </div>
-          <div className="sponsor-box">
-            <img 
-              src="https://media.istockphoto.com/vectors/rubber-stamp-with-sponsor-concept-vector-id995710774?k=20&m=995710774&s=612x612&w=0&h=D6PJftdsm2xftnYV8YmZhxLkV5QEfWICaJ_EF1dddW8="
-              alt="Event Sponsor 3" 
-              className="sponsor-logo" 
-            />
-          </div>
+          {sponsors.slice(7, 10).map((sponsor, index) => (
+            <div className="sponsor-box" key={index}>
+              <img 
+                src={sponsor.imgSrc} 
+                alt={sponsor.name} 
+                className="sponsor-logo" 
+                loading="lazy"
+              />
+            </div>
+          ))}
         </div>
       </section>
 
+      {/* All Sponsors Section */}
       <section className="sponsor-category">
-        <h2 className="text-center">Sponsors</h2>
+        <h2 className="text-center">Other Sponsors</h2>
         <div className="logo-grid">
-          {Array.from({ length: 20 }).map((_, index) => (
-            <div className="sponsor-box" key={index}>
+          {sponsors.slice(10).map((sponsor, index) => (
+            <div className="sponsor-box" key={`sponsor-${index}`}>
               <img 
-                src="https://media.istockphoto.com/vectors/rubber-stamp-with-sponsor-concept-vector-id995710774?k=20&m=995710774&s=612x612&w=0&h=D6PJftdsm2xftnYV8YmZhxLkV5QEfWICaJ_EF1dddW8="
+                src={sponsor.imgSrc} 
                 alt={`Sponsor ${index + 1}`} 
-                className="sponsor-logo"
+                className="sponsor-logo" 
+                loading="lazy"
               />
             </div>
           ))}
