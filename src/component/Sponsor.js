@@ -5,16 +5,16 @@ import './css/sponsor.css'; // Import CSS for styling
 export default function Sponsor() {
   // Array of sponsor data
   const sponsors = [
-    { name: "Title Sponsor", imgSrc: "https://example.com/title-sponsor-logo.png" },
-    { name: "Co-Sponsor 1", imgSrc: "https://example.com/co-sponsor1-logo.png" },
-    { name: "Co-Sponsor 2", imgSrc: "https://example.com/co-sponsor2-logo.png" },
-    { name: "Travel Partner", imgSrc: "https://example.com/travel-partner-logo.png" },
-    { name: "Media Partner 1", imgSrc: "https://example.com/media-partner1-logo.png" },
-    { name: "Media Partner 2", imgSrc: "https://example.com/media-partner2-logo.png" },
-    { name: "Media Partner 3", imgSrc: "https://example.com/media-partner3-logo.png" },
-    { name: "Event Sponsor 1", imgSrc: "https://example.com/event-sponsor1-logo.png" },
-    { name: "Event Sponsor 2", imgSrc: "https://example.com/event-sponsor2-logo.png" },
-    { name: "Event Sponsor 3", imgSrc: "https://example.com/event-sponsor3-logo.png" },
+    { name: "Title Sponsor", imgSrc: "https://thumbs.dreamstime.com/b/sponsor-stamp-white-sponsor-stamp-white-background-sign-label-sticker-124218259.jpg" },
+    { name: "Co-Sponsor 1", imgSrc: "https://thumbs.dreamstime.com/b/sponsor-stamp-white-sponsor-stamp-white-background-sign-label-sticker-124218259.jpg" },
+    { name: "Co-Sponsor 2", imgSrc: "https://thumbs.dreamstime.com/b/sponsor-stamp-white-sponsor-stamp-white-background-sign-label-sticker-124218259.jpg" },
+    { name: "Travel Partner", imgSrc: "https://thumbs.dreamstime.com/b/sponsor-stamp-white-sponsor-stamp-white-background-sign-label-sticker-124218259.jpg" },
+    { name: "Media Partner 1", imgSrc: "https://thumbs.dreamstime.com/b/sponsor-stamp-white-sponsor-stamp-white-background-sign-label-sticker-124218259.jpg" },
+    { name: "Media Partner 2", imgSrc: "https://thumbs.dreamstime.com/b/sponsor-stamp-white-sponsor-stamp-white-background-sign-label-sticker-124218259.jpg" },
+    { name: "Media Partner 3", imgSrc: "https://thumbs.dreamstime.com/b/sponsor-stamp-white-sponsor-stamp-white-background-sign-label-sticker-124218259.jpg" },
+    { name: "Event Sponsor 1", imgSrc: "https://thumbs.dreamstime.com/b/sponsor-stamp-white-sponsor-stamp-white-background-sign-label-sticker-124218259.jpg" },
+    { name: "Event Sponsor 2", imgSrc: "https://thumbs.dreamstime.com/b/sponsor-stamp-white-sponsor-stamp-white-background-sign-label-sticker-124218259.jpg" },
+    { name: "Event Sponsor 3", imgSrc: "https://thumbs.dreamstime.com/b/sponsor-stamp-white-sponsor-stamp-white-background-sign-label-sticker-124218259.jpg" },
     // Repeat the above array items for more sponsors (up to 20 as per your requirement)
   ];
 

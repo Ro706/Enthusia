@@ -61,7 +61,7 @@ export default function EventPage() {
           {/* Right Column - SIT Image */}
           <div className="col-md-6">
             <div className="embed-responsive embed-responsive">
-                <h1>Star Night</h1>
+                <h1 className="nova-text">Star Night</h1>
               <img src="./image/nova.png" alt="SIT" className="col-md-12 embed-responsive-item" style={{ width: '100%', height: 'auto' }} />
             </div>
             <h3>iqlipse nova</h3>
