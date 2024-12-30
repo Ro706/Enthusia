@@ -1,6 +1,6 @@
 import React from 'react';
 import ParticlesComponent from './particles';
-import SIT from './image/SIT.png'; // Correct way to import a default export
+import Events from './event';
 import './css/about.css'; // Import CSS file
 
 export default function EventPage() {
@@ -22,6 +22,7 @@ export default function EventPage() {
     return imageUrls.map((url, index) => (
       <img key={index} src={url} alt={`Gallery Image ${index + 1}`} className="image" />
     ));
+    
   };
 
   return (
@@ -68,7 +69,33 @@ export default function EventPage() {
           </div>
         </div>
       </div>
-
+      <section className="events">
+        <div className="row">
+          <Events />
+        </div>
+      </section>
+      {/* Dance Section */}
+      <section className="events-dance">
+        <h2 className="text-center text-decoration-underline">Dance</h2>
+      <div className="gallery-container">
+          <img src="https://i.pinimg.com/originals/f1/32/1d/f1321d56a221caf496d5564da9c7c9f2.jpg" alt="Dancer" className="image" />
+          <img src="https://i.pinimg.com/originals/f1/32/1d/f1321d56a221caf496d5564da9c7c9f2.jpg" alt="Dancer" className="image" />
+          <img src="https://i.pinimg.com/originals/f1/32/1d/f1321d56a221caf496d5564da9c7c9f2.jpg" alt="Dancer" className="image" />
+          <img src="https://i.pinimg.com/originals/f1/32/1d/f1321d56a221caf496d5564da9c7c9f2.jpg" alt="Dancer" className="image" />
+          <img src="https://i.pinimg.com/originals/f1/32/1d/f1321d56a221caf496d5564da9c7c9f2.jpg" alt="Dancer" className="image" />
+        </div>
+      </section>
+      {/* Music Section */}
+      <section className="events-music">
+        <h2 className="text-center text-decoration-underline">Music</h2>
+        <div className="gallery-container">
+          <img src="https://th.bing.com/th/id/OIP.uLmLgdVyOB2x1ShCHQyv1QHaD4?rs=1&pid=ImgDetMain" alt="Music" className="image" />
+          <img src="https://th.bing.com/th/id/OIP.uLmLgdVyOB2x1ShCHQyv1QHaD4?rs=1&pid=ImgDetMain" alt="Music" className="image" />
+          <img src="https://th.bing.com/th/id/OIP.uLmLgdVyOB2x1ShCHQyv1QHaD4?rs=1&pid=ImgDetMain" alt="Music" className="image" />
+          <img src="https://th.bing.com/th/id/OIP.uLmLgdVyOB2x1ShCHQyv1QHaD4?rs=1&pid=ImgDetMain" alt="Music" className="image" />
+          <img src="https://th.bing.com/th/id/OIP.uLmLgdVyOB2x1ShCHQyv1QHaD4?rs=1&pid=ImgDetMain" alt="Music" className="image" />
+        </div>
+      </section>
       {/* Gallery Section */}
       <section className="gallery">
         <h2 className="text-center text-decoration-underline">Gallery</h2>

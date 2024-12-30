@@ -47,6 +47,12 @@ const EventCard = ({ title, description, imageUrl, applyLink, wordLimit }) => {
 
 const Events = () => {
   const events = [
+    // {
+    //   title: 'TechTalks',
+    //   description: 'TechTalks, a series of technical talks at Enthusia 4.0, features industry experts and academics sharing insights on cutting-edge technologies, trends, and best practices. Open to all participants, these talks provide valuable knowledge, inspiration, and networking opportunities, fostering learning and innovation.',
+    //   imageUrl: './image/techtalks.jpg',
+    //   applyLink: '/Apply'
+    // },
     {
       title: 'SITNovate',
       description: 'Enthusia 4.0, the annual flagship event of SIT Nagpur, features a thrilling 24-hour offline Hackathon as its mega event. Open to participants from across India, this SITNovate invites teams of 3-4 talented individuals to gather at our campus to tackle challenging real-world problem statements, showcasing their coding prowess and problem-solving skills in an intense and inspiring environment. This Hackathon provides an exceptional platform for students to engage with cutting-edge technology, network with like-minded peers, and turn ideas into impactful solutions.',
@@ -70,6 +76,36 @@ const Events = () => {
   return (
     <section className="events">
       <h2 className="text-center text-decoration-underline">Events</h2>
+      <div className='row justify-content-center'>
+      <div className="col-md-4 mb-3">
+      <div className="card bg-black text-white border-1 border-white">
+        <div className="card-body">
+          <img 
+            src="./image/techtalks.jpg" 
+            className="event-image" 
+            alt={`tech talk Event Image`} 
+            style={{
+              width: "100%", 
+              height: "200px", 
+              objectFit: "cover"
+            }} 
+          />
+          <h5 className="card-title mt-3">TechTalks</h5>
+          <p className="card-text fs-10">
+            TechTalks, a series of technical talks at Enthusia 4.0, features industry experts and academics sharing insights on cutting-edge technologies, trends, and best practices. Open to all participants, these talks provide valuable knowledge, inspiration, and networking opportunities, fostering learning and innovation
+          </p>
+          <div className="text-center">
+            <button 
+              className="btn btn-primary btn-lg" 
+            >
+              Join us
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+      <br />
       <div className="row justify-content-center">
         {events.map((event, index) => (
           <EventCard 

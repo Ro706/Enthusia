@@ -51,7 +51,7 @@ export default function Contact() {
       </section>
 
       {/* Map Section */}
-      {/* <section className="map-section">
+      <section className="map-section">
         <h2>📌 Find Us Here</h2>
           <iframe
             title="Google Map"
@@ -61,7 +61,7 @@ export default function Contact() {
             allowFullScreen=""
             loading="lazy"
           />
-      </section> */}
+      </section>
     </div>
   );
 }
