@@ -40,9 +40,6 @@
     height: 0;
     padding-bottom: 56.25%; /* 16:9 ratio */
   }
-  .embed-responsive .embed-responsive h1{
-    font-size: 10px;
-  }
   .embed-responsive-item {
     display: block; 
     border-radius: 10px;

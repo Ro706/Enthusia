@@ -61,13 +61,13 @@ const Events = () => {
     },
     {
       title: 'SIT CodeSprint',
-      description: 'SITank, the SIT version of Shark Tank at Enthusia 4.0, is an event fostering innovation and entrepreneurship. Open to participants nationwide, it provides a platform for aspiring entrepreneurs to pitch ideas to industry experts and investors, showcasing innovation, receiving feedback, and competing for funding and recognition. It’s an excellent opportunity for entrepreneurs to connect with mentors and investors.',
+      description: 'SIT CodeSprint, a national-level coding event at Enthusia 4.0, invites top coders from across India to tackle algorithmic challenges testing coding skills, logic, and speed. It provides a platform to showcase problem-solving abilities, compete with the best minds, and enhance expertise in a dynamic environment.',
       imageUrl: './image/compii.jpg',
       applyLink: '/Apply'
     },
     {
       title: 'SI Tank',
-      description: 'SIT CodeSprint, a national-level coding event at Enthusia 4.0, invites top coders from across India to tackle algorithmic challenges testing coding skills, logic, and speed. It provides a platform to showcase problem-solving abilities, compete with the best minds, and enhance expertise in a dynamic environment.',
+      description: 'SITank, the SIT version of Shark Tank at Enthusia 4.0, is an event fostering innovation and entrepreneurship. Open to participants nationwide, it provides a platform for aspiring entrepreneurs to pitch ideas to industry experts and investors, showcasing innovation, receiving feedback, and competing for funding and recognition. It’s an excellent opportunity for entrepreneurs to connect with mentors and investors. This event is in collaboration with Indovation Center, Western Region, Ministry of Education’s Innovation Cell, Incubein Foundation, RTM Nagpur University, Nagpur and TiE, Nagpur',
       imageUrl: './image/SI-tank.png',
       applyLink: '/Apply'
     }
