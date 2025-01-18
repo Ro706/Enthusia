@@ -186,7 +186,7 @@ export default function Home() {
       className="image"
     />
     <img 
-      src="/image/p10.JPG" 
+      src="/image/p10.jpg" 
       alt="Gallery Image 10" 
       className="image"
     />
