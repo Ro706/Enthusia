@@ -42,3 +42,7 @@ img{
     }
     
 }
+.navbar-toggler{
+    color: white;
+    width: 50px;
+}

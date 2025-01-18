@@ -122,58 +122,71 @@ export default function Home() {
           <Events />
         </div>
       </section>
-
+<section className="last">
+  <h2 className="text-center text-decoration-underline">Last Year's Highlights</h2>
+  <div class="containers"> 
+        <iframe class="responsive-iframe" 
+                src="https://www.youtube.com/embed/A3X_rpkHKIg?autoplay=1&loop=1&playlist=A3X_rpkHKIg&controls=0&mute=1" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen 
+                style={{pointerEvents: "none", width: "100%", height: "100%"}}>
+        </iframe>
+      </div>
+</section>
 {/* Gallery Section */}
 <section className="gallery">
   <h2 className="text-center text-decoration-underline">Gallery</h2>
   <div className="gallery-container">
     <img 
-      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      src="/image/p1.JPG" 
       alt="Gallery Image 1" 
       className="image"
     />
     <img 
-      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      src="/image/p2.JPG" 
       alt="Gallery Image 2" 
       className="image"
     />
     <img 
-      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      src="/image/p3.JPG" 
       alt="Gallery Image 3" 
       className="image"
     />
     <img 
-      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      src="/image/p4.JPG" 
       alt="Gallery Image 4" 
       className="image"
     />
     <img 
-      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      src="/image/p5.JPG" 
       alt="Gallery Image 5" 
       className="image"
     />
     <img 
-      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      src="/image/p6.JPG" 
       alt="Gallery Image 6" 
       className="image"
     />
     <img 
-      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      src="/image/p7.JPG"  
       alt="Gallery Image 7" 
       className="image"
     />
     <img 
-      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      src="/image/p8.JPG" 
       alt="Gallery Image 8" 
       className="image"
     />
     <img 
-      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      src="/image/p9.JPG" 
       alt="Gallery Image 9" 
       className="image"
     />
     <img 
-      src="https://th.bing.com/th/id/OIP.-_PyFbSj7763esrJlk-1CwAAAA?rs=1&pid=ImgDetMain" 
+      src="/image/p10.JPG" 
       alt="Gallery Image 10" 
       className="image"
     />

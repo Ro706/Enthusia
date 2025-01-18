@@ -15,7 +15,9 @@ export default function Sponsor() {
     { name: "Event Sponsor 1", imgSrc: "https://thumbs.dreamstime.com/b/sponsor-stamp-white-sponsor-stamp-white-background-sign-label-sticker-124218259.jpg" },
     { name: "Event Sponsor 2", imgSrc: "https://thumbs.dreamstime.com/b/sponsor-stamp-white-sponsor-stamp-white-background-sign-label-sticker-124218259.jpg" },
     { name: "Event Sponsor 3", imgSrc: "https://thumbs.dreamstime.com/b/sponsor-stamp-white-sponsor-stamp-white-background-sign-label-sticker-124218259.jpg" },
-    // Repeat the above array items for more sponsors (up to 20 as per your requirement)
+    { name: "Sponsor 1", imgSrc: "https://thumbs.dreamstime.com/b/sponsor-stamp-white-sponsor-stamp-white-background-sign-label-sticker-124218259.jpg" },
+    { name: "Sponsor 2", imgSrc: "https://thumbs.dreamstime.com/b/sponsor-stamp-white-sponsor-stamp-white-background-sign-label-sticker-124218259.jpg" },
+    { name: "Sponsor 3", imgSrc: "https://thumbs.dreamstime.com/b/sponsor-stamp-white-sponsor-stamp-white-background-sign-label-sticker-124218259.jpg" }
   ];
 
   return (

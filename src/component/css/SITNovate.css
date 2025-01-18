@@ -1,0 +1,64 @@
+/* SITNovate.css */
+
+/* General Styling */
+.logo {
+    width: 150px;
+    margin: 20px auto;
+    display: block;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #c4c3c3;
+    margin-top: 10px;
+  }
+  
+  /* Introduction Section */
+  .intro-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 1200px;
+  }
+  
+  .intro-text-container {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .intro-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .intro-paragraph {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  /* Image Section */
+  .intro-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .intro-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  

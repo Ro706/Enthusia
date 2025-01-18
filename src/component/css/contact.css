@@ -121,10 +121,14 @@
     display: flex;
     flex-wrap: wrap; /* Allow items to wrap to the next row */
     justify-content: center; /* Center align items */
-    gap: 15px; /* Add spacing between items */
+    gap: 5px; /* Add spacing between items */
     margin-top: 15px;
   }
-  
+  .social-icons a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
   .social-link {
     display: inline-block;
     padding: 10px 15px;
@@ -146,7 +150,7 @@
   /* Responsive Design */
   @media screen and (max-width: 768px) {
     .social-icons {
-      flex-direction: column; /* Stack icons vertically */
+      flex-direction: row; /* Stack icons vertically */
       align-items: center; /* Center align items */
       gap: 10px; /* Reduce spacing between items */
     }
