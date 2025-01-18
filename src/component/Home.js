@@ -142,52 +142,52 @@ export default function Home() {
   <div className="gallery-container">
     <img 
       src="/image/p1.JPG" 
-      alt="Gallery Image 1" 
+      alt="GalleryImage1" 
       className="image"
     />
     <img 
       src="/image/p2.JPG" 
-      alt="Gallery Image 2" 
+      alt="GalleryImage2" 
       className="image"
     />
     <img 
       src="/image/p3.JPG" 
-      alt="Gallery Image 3" 
+      alt="GalleryImage3" 
       className="image"
     />
     <img 
       src="/image/p4.JPG" 
-      alt="Gallery Image 4" 
+      alt="GalleryImage4" 
       className="image"
     />
     <img 
       src="/image/p5.JPG" 
-      alt="Gallery Image 5" 
+      alt="GalleryImage5" 
       className="image"
     />
     <img 
       src="/image/p6.JPG" 
-      alt="Gallery Image 6" 
+      alt="GalleryImage6" 
       className="image"
     />
     <img 
       src="/image/p7.JPG"  
-      alt="Gallery Image 7" 
+      alt="GalleryImage7" 
       className="image"
     />
     <img 
       src="/image/p8.JPG" 
-      alt="Gallery Image 8" 
+      alt="GalleryImage8" 
       className="image"
     />
     <img 
       src="/image/p9.JPG" 
-      alt="Gallery Image 9" 
+      alt="GalleryImage9" 
       className="image"
     />
     <img 
       src="/image/p10.jpg" 
-      alt="Gallery Image 10" 
+      alt="GalleryImage10" 
       className="image"
     />
   </div>

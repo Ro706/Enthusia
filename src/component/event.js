@@ -12,7 +12,7 @@ const EventCard = ({ title, description, imageUrl, applyLink, wordLimit }) => {
           <img 
             src={imageUrl} 
             className="event-image" 
-            alt={`${title} Event Image`} 
+            alt={`${title}`} 
             style={{
               width: "100%", 
               height: "200px", 
@@ -56,7 +56,7 @@ const Events = () => {
     {
       title: 'SITNovate',
       description: 'Enthusia 4.0, the annual flagship event of SIT Nagpur, features a thrilling 24-hour offline Hackathon as its mega event. Open to participants from across India, this SITNovate invites teams of 3-4 talented individuals to gather at our campus to tackle challenging real-world problem statements, showcasing their coding prowess and problem-solving skills in an intense and inspiring environment. This Hackathon provides an exceptional platform for students to engage with cutting-edge technology, network with like-minded peers, and turn ideas into impactful solutions.',
-      imageUrl: './image/codehunt.webp',
+      imageUrl: './image/hackathon.png',
       applyLink: '/SITNovate'
     },
     {

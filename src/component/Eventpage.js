@@ -20,7 +20,7 @@ export default function EventPage() {
     ];
 
     return imageUrls.map((url, index) => (
-      <img key={index} src={url} alt={`Gallery Image ${index + 1}`} className="image" />
+      <img key={index} src={url} alt={`GalleryImage ${index + 1}`} className="image" />
     ));
     
   };
