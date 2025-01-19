@@ -12,8 +12,7 @@ export default function Contact() {
       </header>
 
       <section className="contact-container">
-        {/* Contact Form */}
-        <div className="contact-form">
+        {/* <div className="contact-form">
           <h2>Contact Form</h2>
           <form>
             <div className="form-group">
@@ -30,7 +29,7 @@ export default function Contact() {
             </div>
             <button type="submit" className="submit-button">Send Message ✉️</button>
           </form>
-        </div>
+        </div> */}
 
         {/* Contact Details */}
         <div className="contact-details">
