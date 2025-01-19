@@ -51,7 +51,7 @@ const Events = () => {
       title: 'TechTalks',
       description: 'TechTalks, a series of technical talks at Enthusia 4.0, features industry experts and academics sharing insights on cutting-edge technologies, trends, and best practices. Open to all participants, these talks provide valuable knowledge, inspiration, and networking opportunities, fostering learning and innovation.',
       imageUrl: './image/techtalks.jpg',
-      applyLink: '/Apply'
+      applyLink: '/'
     },
     {
       title: 'SITNovate',
