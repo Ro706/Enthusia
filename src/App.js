@@ -1,8 +1,7 @@
-// import React, { useState } from 'react';
 import './App.css';
 import React from 'react';
 import Navbar from './component/Navbar';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Import Routes
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import About from './component/About';
 import Home from './component/Home';
 import Sponsor from './component/Sponsor';
@@ -15,7 +14,7 @@ const App = () => {
     <div className='App'>
       <Router>
         <Navbar />
-        <Routes> {/* Wrap Routes */}
+        <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/About' element={<About/>} />
           <Route path='/SITNovate' element={<SITNovate/>} />
