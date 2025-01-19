@@ -22,10 +22,10 @@ function SITANK() {
             <img src="/image/Picture2.png" alt="Incubation Partner" />
           </div>
         </div>
-        <button className="register-button"  onClick={() => window.open("https://github.com/Ro706", "_blank")}>Register Now</button>
+        <button className="register-button"  onClick={() => window.open("https://github.com/Ro706", "_blank")}>Register Now</button><br/>
         <img src="/image/SITANK.jpg" alt="SITANK POSTER" className='image_SITank'/>
         <div className="details">
-          <p><strong>Date:</strong> 21st Feb, 2025</p>
+          <p><strong>Date:</strong> 20th Feb, 2025</p>
           <p><strong>Eligibility:</strong> Only Startups above TRL 3 are allowed.</p>
         </div>
         <div className="description">
@@ -66,13 +66,13 @@ function SITANK() {
             Incubation Assistance
           </button>
           <button className="highlight-button">
-            <img src="https://cdn-icons-png.flaticon.com/512/2344/2344491.png" alt="Online Monitoring" />
-            Online Monitoring
+            <img src="https://cdn-icons-png.flaticon.com/512/2344/2344491.png" alt="OnlineMentoring" />
+            Online Mentoring
           </button>
         </div>
           <ul>
-            <li>Track 1: Elimination Round</li>
-            <li>Track 2: Final Round</li>
+          <li>Track1: Elimination Round (Exact date and timings of the Elimination Round will be conveyed here soon.)</li>
+          <li>Track2: Final Round (20th Feb, 2025).</li>
           </ul>
           <p className="timing">Exact timings of the event will be published here soon.</p>
         </div>

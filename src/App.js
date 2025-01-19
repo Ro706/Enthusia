@@ -7,7 +7,6 @@ import About from './component/About';
 import Home from './component/Home';
 import Sponsor from './component/Sponsor';
 import Contact from './component/Contact';
-import Apply from './component/Apply';
 import SITNovate from './component/SITNovate';
 import SITCodeSprint from './component/SITCodeSprint';
 import SITANK from './component/SITANK';
@@ -24,7 +23,6 @@ const App = () => {
           <Route path='/SITANK' element={<SITANK/>} />
           <Route path='/Sponsor' element={<Sponsor/>} />
           <Route path='/Contact' element={<Contact />} />
-          <Route path='/Apply' element={<Apply />} />
         </Routes>
       </Router>
     </div>

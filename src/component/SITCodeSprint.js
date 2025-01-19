@@ -50,8 +50,8 @@ So, are you ready to take on the ultimate challenge? Are you prepared to test yo
             Incubation Assistance
           </button>
           <button className="highlight-button">
-            <img src="https://cdn-icons-png.flaticon.com/512/2344/2344491.png" alt="Online Monitoring" />
-            Online Monitoring
+            <img src="https://cdn-icons-png.flaticon.com/512/2344/2344491.png" alt="Online Mentoring" />
+            Online Mentoring
           </button>
         </div>
           <p className="timing">Exact timings of the event will be published here soon.</p>

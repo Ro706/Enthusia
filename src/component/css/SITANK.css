@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
   /* background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); */
   color: #fff;
 }
@@ -46,11 +47,17 @@ img{
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
 }
-
+.partner img{
+    width: 150px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
 .register-button {
   background: #ff4081;
   color: #fff;
   border: none;
+  width: 200px;
   padding: 0.8rem 2rem;
   border-radius: 25px;
   font-size: 1rem;
@@ -158,6 +165,7 @@ img{
   background: rgba(255, 255, 255, 0.3);
 }
 .footer {
+  font-family: "Audiowide", sans-serif;
   background-color: #f8f9fa00;
   padding: 10px;
 }
@@ -172,5 +180,11 @@ img{
         height: 75px;
         margin-top: 25px;
     }
+    .partner img{
+      width: 100px;
+      height: 50px;
+      display: block;
+      margin: 0 auto;
+  }
   
 }

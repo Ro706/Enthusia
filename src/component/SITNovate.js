@@ -48,8 +48,8 @@ With exciting prizes up for grabs, <b>SITNovate</b> is the ultimate arena for co
             Incubation Assistance
           </button>
           <button className="highlight-button">
-            <img src="https://cdn-icons-png.flaticon.com/512/2344/2344491.png" alt="Online Monitoring" />
-            Online Monitoring
+            <img src="https://cdn-icons-png.flaticon.com/512/2344/2344491.png" alt="Online Mentoring" />
+            Online Mentoring
           </button>
         </div>
           <p className="timing">Exact timings of the event will be published here soon.</p>
