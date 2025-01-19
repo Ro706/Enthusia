@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    /* background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); */
+    font-family: "Audiowide", sans-serif;
     color: #fff;
   }
   img{
@@ -158,11 +158,19 @@ body {
     margin: 0;
     color: #555;
   }
+  .image_SITCodeSprint{
+    width: 50%;
+    height: auto;
+}
   @media screen and (max-width: 768px){
       .logo{
           width: 150px;
           height: 75px;
           margin-top: 25px;
+      }
+      .image_SITCodeSprint{
+          width: 100%;
+          height: auto;
       }
     
   }

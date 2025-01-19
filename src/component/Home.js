@@ -5,6 +5,20 @@ import Events from './event';
 export default function Home() {
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
   const [isReadMore, setIsReadMore] = useState(false);
+  const [loading, setLoading] = useState(true); // State for loading screen
+
+  useEffect(() => {
+    // Simulate loading by waiting for all elements to load
+    const handlePageLoad = () => setLoading(false);
+
+    if (document.readyState === 'complete') {
+      handlePageLoad();
+    } else {
+      window.addEventListener('load', handlePageLoad);
+    }
+
+    return () => window.removeEventListener('load', handlePageLoad);
+  }, []);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -34,6 +48,16 @@ export default function Home() {
   const handleReadMore = () => {
     setIsReadMore(!isReadMore);
   };
+
+  if (loading) {
+    // Render loading spinner while the page is loading
+    return (
+      <div className="loading-screen">
+        <div className="spinner"></div>
+        <h2>Loading...</h2>
+      </div>
+    );
+  }
 
   return (
     <div className="home">

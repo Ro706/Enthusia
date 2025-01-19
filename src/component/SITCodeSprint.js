@@ -9,7 +9,7 @@ function SITCodeSprint() {
         <img src="./image/SIT_NGPR_1.png" alt="SIT Logo" className="logo" />
         <h1 className="title">SITCodeSprin 2025</h1>
         <p className="subtitle">A Great Fundraising Opportunity to Showcase Your Talent</p>
-        <img src="/image/compii.jpg" alt="SITCodeSprin POSTER" className='image_SITank'/>
+        <img src="/image/compii.jpg" alt="SITCodeSprin POSTER" className='image_SITCodeSprint'/>
         <div className="details">
           <p><strong>Date:</strong> 21st Feb, 2025</p>
           {/* <p><strong>Eligibility:</strong> </p> */}
