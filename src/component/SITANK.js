@@ -43,7 +43,7 @@ function SITANK() {
         </div>
         <button
           className="register-button"
-          onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLScED2DfSyrKGGwcT9KIhdJ847Y7p4VYzfNyFMM6HmR6CvJR6Q/viewform', '_blank')}
+          onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLScjbXRgmgczILsJ40ntqaDnt6stU8N6f3BtYDA6DSzRo0qumA/viewform', '_blank')}
         >
           Register Now
         </button>
