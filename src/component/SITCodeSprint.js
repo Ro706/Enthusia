@@ -11,7 +11,7 @@ function SITCodeSprint() {
         <p className="subtitle">A Great Fundraising Opportunity to Showcase Your Talent</p>
         <img src="/image/compii.jpg" alt="SITCodeSprin POSTER" className='image_SITCodeSprint'/>
         <div className="details">
-          <p><strong>Date:</strong> 21st Feb, 2025</p>
+          <p><strong>Date:</strong> 20st Feb, 2025</p>
           {/* <p><strong>Eligibility:</strong> </p> */}
         </div>
         <div className="description">

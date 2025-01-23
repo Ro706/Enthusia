@@ -12,7 +12,7 @@ function SITNovate() {
         <p className="subtitle">A Great Fundraising Opportunity to Showcase Your Talent</p>
         <img src="/image/hackathon.png" alt="SITNovate POSTER" className='image_SITank'/>
         <div className="details">
-          <p><strong>Date:</strong> 20st Feb, 2025</p>
+          <p><strong>Date:</strong> 19th Feb, 2025</p>
           {/* <p><strong>Eligibility:</strong> </p> */}
         </div>
         <div className="description">
