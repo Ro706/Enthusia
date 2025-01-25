@@ -3,6 +3,30 @@ import './css/Nav.css';
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        const email = e.target.Email.value;
+
+        try {
+            const response = await fetch('http://localhost:5000/api/subscribe', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ email }),
+            });
+
+            const data = await response.json();
+            if (response.ok) {
+                alert(data.message);
+                e.target.reset();
+            } else {
+                alert(data.message);
+            }
+        } catch (error) {
+            console.error('Error:', error);
+            alert('An error occurred. Please try again later.');
+        }
+    };
+
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -46,11 +70,10 @@ const Navbar = () => {
                             <li className="nav-item">
                                 <Link className="nav-link" to="/Contact">Contact</Link>
                             </li>
-                            
                         </ul>
-                        <form className="d-flex ms-3" role="search">
-                        <input type="email" className="input" id="Email" name="Email" placeholder="example@gmail.com" autocomplete="off"/>
-                        <input className="button--submit" value="Subscribe" type="submit"/>
+                        <form className="d-flex ms-3" role="search" onSubmit={handleSubmit}>
+                            <input type="email" className="input" id="Email" name="Email" placeholder="example@gmail.com" autoComplete="off" />
+                            <input className="button--submit" value="Subscribe" type="submit" />
                         </form>
                     </div>
                 </div>
