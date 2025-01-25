@@ -8,7 +8,7 @@ const Navbar = () => {
         const email = e.target.Email.value;
 
         try {
-            const response = await fetch('http://localhost:5000/api/subscribe', {
+            const response = await fetch('https://enthusia-oi0b.onrender.com/api/subscribe', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email }),
