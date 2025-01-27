@@ -134,7 +134,8 @@ export default function Home() {
         top: "10px", 
         width: "90%",
         height: "30%",
-      }}/>
+      }}
+      loading='lazy'/>
 
       </motion.div>
       {/* Timer Section */}
