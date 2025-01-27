@@ -37,6 +37,7 @@ export default function Contact() {
           <p><strong>Address:</strong> Symbiosis Institute of Technology, Wathoda Layout, Nagpur, Maharashtra 440008</p>
           <p><strong>Website:</strong> <a href="https://sitnagpur.edu.in/" target="_blank" rel="noopener noreferrer">https://sitnagpur.edu.in/</a></p>
           <p><strong>Email:</strong> <a href="mailto:src.sit@sitnagpur.siu.edu.in">src.sit@sitnagpur.siu.edu.in</a></p>
+          <p><strong>Email:</strong> <a href="mailto:enthusia@sitnagpur.siu.edu.in">enthusia@sitnagpur.siu.edu.in</a></p>
           <p><strong>Phone:</strong> +91 9834832470</p>
           <p><strong>Location:</strong> Symbiosis Institute of Technology, Nagpur</p>
           <div className="social-icons">

@@ -101,11 +101,13 @@ img{
     margin-top: 50px;
     border-radius: 0px;
 }
-.image_SITank{
-    width:auto;
-    height: 300px;
-    border-radius: 0px;
+@media screen and (max-width: 768px){
+  .image_SITNovate{
+    width: 200px;
+    height: auto;
+  }
 }
+
 .button-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));

@@ -141,7 +141,11 @@ function SITANK() {
           className="slideshow-image"
         />
       </section>
-      <footer className="footer">
+      <footer className="footer"
+      style={{
+        paddingTop: '10px',
+      }}
+      >
         <p className="text-center">&copy; 2025 Enthusia. All rights reserved.</p>
       </footer>
     </div>
