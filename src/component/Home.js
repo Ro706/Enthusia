@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import ParticlesComponent from './particles';
+import { motion } from "framer-motion";
 import './css/home.css';
 import Events from './event';
 export default function Home() {
@@ -61,13 +62,32 @@ export default function Home() {
 
   return (
     <div className="home">
+       <motion.div
+      className="home"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 1 }}
+    ></motion.div>
          <ParticlesComponent id="particles" />
-      <h1 className="text-center">Enthusia 4.0</h1>
+         <motion.h1
+        className="text-center"
+        initial={{ y: -50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.8 }}
+      >
+        Enthusia 4.0
+      </motion.h1>
       <hr />
       <div className="container">
         <div className="row">
           {/* Left Column - About Enthusia */}
-          <div className="col-md-6">
+          <motion.div
+            className="col-md-6"
+            initial={{ x: -100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+          >
             <h2 className='text-decoration-underline'>About Enthusia</h2>
             <p className={`about-text ${isReadMore ? 'expanded' : ''}`}>
               Enthusia, the annual fest of Symbiosis Institute of Technology (SIT) Nagpur, celebrates innovation, creativity, and engineering excellence. Since its establishment in 2021, SIT Nagpur has emerged as a hub of dynamism and educational brilliance, and Enthusia embodies these values through a blend of technical expertise, cultural vibrancy, and spirited competition. This year’s Enthusia features three flagship events: a high-energy Hackathon to solve real-world problems, a Tech Expo showcasing innovative projects and research, and a Cultural Night filled with captivating performances. With interactive workshops, exciting competitions, and opportunities to learn and network, Enthusia 2024 promises to inspire and create lasting memories for all participants.
@@ -81,10 +101,16 @@ export default function Home() {
             <button className="btn btn-link" onClick={handleReadMore}>
               {isReadMore ? 'Read Less' : 'Read More'}
             </button>
-          </div>
+            </motion.div>
 
           {/* Right Column - YouTube Video */}
-          <div className="col-md-6">
+          <motion.div
+            className="col-md-6"
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+          >
             <div className="embed-responsive embed-responsive-16by9">
             <iframe
               className="embed-responsive-item"
@@ -95,13 +121,31 @@ export default function Home() {
               allowFullScreen
             ></iframe>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
+      <motion.div className='container d-flex justify-content-center'
+      initial={{ x: 100, opacity: 0 }}
+      whileInView={{ x: 0, opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ duration: 1 }}
+      >
+      <img src="./image/Enthusia.png" alt="poster" style={{
+        top: "10px", 
+        width: "90%",
+        height: "30%",
+      }}/>
 
+      </motion.div>
       {/* Timer Section */}
       <section className="timer">
-        <h2 className="text-center">Countdown to Enthusia</h2>
+      <motion.h2
+          className="text-center"
+          initial={{ opacity: 0, scale: 0.5 }}
+          whileInView={{ opacity: 1, scale: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >Countdown to Enthusia</motion.h2>
         <div className="timer-display">
           <div className="time-item">
             <span className="time-number">{timeLeft.days || 0}</span>
@@ -124,7 +168,13 @@ export default function Home() {
 
       {/* Sponsors Section */}
       <section className="sponsor">
-      <div className="marquee">
+      <motion.div
+          className="marquee"
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          viewport={{ once: true }}
+          transition={{ duration: 1 }}
+        >
         <div className="marquee-content">
           <div className="box">
             <h2>co-Sponsors</h2>
@@ -136,13 +186,22 @@ export default function Home() {
             <h2>co-Sponsors</h2>
           </div>
         </div>
-      </div>
+      </motion.div>
       </section>
 
 
       {/* Events Section */}
       <section className="events">
         <h2 className="text-center text-decoration-underline">Events</h2>
+        <img src="./image/ENTHUSIA4TECHNICAL.png" alt="" className="Event" style={{
+          width: "70%",
+          height: "40%",
+          objectFit: "contain",
+          margin: "auto",
+          display: "block",
+          alignItems: "center",
+          justifyContent: "center"
+        }}/>
         <div className="row">
           <Events />
         </div>
@@ -150,6 +209,13 @@ export default function Home() {
 <section className="last">
   <h2 className="text-center text-decoration-underline">Last Year's Highlights</h2>
   <div class="containers responsive"> 
+  {/* <motion.div
+            className="col-md-6"
+            initial={{ x: 100, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1 }}
+          > */}
         <iframe class="responsive-iframe" 
                 src="https://www.youtube.com/embed/A3X_rpkHKIg?autoplay=1&loop=1&playlist=A3X_rpkHKIg&controls=0&mute=1" 
                 title="YouTube video player" 
@@ -159,6 +225,7 @@ export default function Home() {
                 allowfullscreen 
                 style={{pointerEvents: "none", width: "100%", height: "100%"}}>
         </iframe>
+        {/* </motion.div> */}
       </div>
 </section>
 {/* Gallery Section */}
@@ -169,51 +236,61 @@ export default function Home() {
       src="/image/p1.JPG" 
       alt="GalleryImage1" 
       className="image"
+       loading="lazy"
     />
     <img 
       src="/image/p2.JPG" 
       alt="GalleryImage2" 
       className="image"
+       loading="lazy"
     />
     <img 
       src="/image/p3.JPG" 
       alt="GalleryImage3" 
       className="image"
+        loading="lazy"
     />
     <img 
       src="/image/p4.JPG" 
       alt="GalleryImage4" 
       className="image"
+       loading="lazy"
     />
     <img 
       src="/image/p5.JPG" 
       alt="GalleryImage5" 
       className="image"
+       loading="lazy"
     />
     <img 
       src="/image/p6.JPG" 
       alt="GalleryImage6" 
       className="image"
+       loading="lazy"
     />
     <img 
       src="/image/p7.JPG"  
       alt="GalleryImage7" 
       className="image"
+       loading="lazy"
     />
     <img 
       src="/image/p8.JPG" 
       alt="GalleryImage8" 
       className="image"
+       loading="lazy"
     />
     <img 
       src="/image/p9.JPG" 
       alt="GalleryImage9" 
       className="image"
+       loading="lazy"
     />
     <img 
       src="/image/p10.jpg" 
       alt="GalleryImage10" 
       className="image"
+       loading="lazy"
     />
   </div>
 </section>

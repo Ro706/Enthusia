@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #fff; /* Optional background color */
+    background-color: #ffffff00; /* Optional background color */
     flex-direction: column;
     position: fixed;
     top: 0;
@@ -26,7 +26,7 @@
   .spinner {
     width: 50px;
     height: 50px;
-    border: 5px solid rgba(0, 0, 0, 0.1);
+    border: 5px solid rgba(137, 137, 137, 0.1);
     border-top-color: #3498db; /* Spinner color */
     border-radius: 50%;
     animation: spin 1s linear infinite;
