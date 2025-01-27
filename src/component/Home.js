@@ -142,13 +142,14 @@ export default function Home() {
 
       {/* Events Section */}
       <section className="events">
+        <h2 className="text-center text-decoration-underline">Events</h2>
         <div className="row">
           <Events />
         </div>
       </section>
 <section className="last">
   <h2 className="text-center text-decoration-underline">Last Year's Highlights</h2>
-  <div class="containers"> 
+  <div class="containers responsive"> 
         <iframe class="responsive-iframe" 
                 src="https://www.youtube.com/embed/A3X_rpkHKIg?autoplay=1&loop=1&playlist=A3X_rpkHKIg&controls=0&mute=1" 
                 title="YouTube video player" 
@@ -161,7 +162,7 @@ export default function Home() {
       </div>
 </section>
 {/* Gallery Section */}
-<section className="gallery">
+<section className="gallery responsive">
   <h2 className="text-center text-decoration-underline">Gallery</h2>
   <div className="gallery-container">
     <img 
