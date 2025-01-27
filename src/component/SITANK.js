@@ -54,7 +54,8 @@ function SITANK() {
             <strong>Date:</strong> 20th Feb, 2025
           </p>
           <p>
-            <strong>Eligibility:</strong> Only Startups above TRL 3 are allowed.
+            <strong>Eligibility:</strong> Only Startups above TRL 3 are allowed. <br/>
+            Stall and plug point will be provided to the selected startups for showcasing their products.
           </p>
         </div>
         <div className="description">
