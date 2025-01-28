@@ -10,9 +10,7 @@ function SITNovate() {
         <img src="./image/SIT_NGPR_1.png" alt="SIT Logo" className="logo" />
         <h1 className="title">SITNovate 2025</h1>
         <p className="subtitle">A Great Fundraising Opportunity to Showcase Your Talent</p>
-        <img src="/image/sitNovet.png" alt="SITNovate POSTER" className='image_SITNovate'
-          style={{ width: '40%', height: 'auto' }}
-        />
+        <img src="/image/sitNovet.png" alt="SITNovate POSTER" className='image_SITNovate'/>
         <div className="details">
           <p><strong>Date:</strong> 19th Feb, 2025</p>
           {/* <p><strong>Eligibility:</strong> </p> */}

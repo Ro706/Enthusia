@@ -368,5 +368,25 @@
       height: 100%;
     }
   }
+  /* Adjustments for larger screens */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1400px; /* Increase width for larger screens */
+  }
+
+  h1 {
+    font-size: 4rem; /* Larger headline for desktops */
+  }
+
+  h2 {
+    font-size: 2.5rem; /* Larger subheadings for desktops */
+  }
+
+  p {
+    font-size: 1.1rem; /* Increase paragraph font size */
+    line-height: 1.8;
+  }
+}
+
     
   

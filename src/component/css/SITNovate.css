@@ -101,9 +101,15 @@ img{
     margin-top: 50px;
     border-radius: 0px;
 }
+ /* width: '40%', height: 'auto' }} */
+.image_SITNovate{
+  width: 40%;
+  height: auto;
+}
+
 @media screen and (max-width: 768px){
   .image_SITNovate{
-    width: 200px;
+    width: 100%;
     height: auto;
   }
 }
