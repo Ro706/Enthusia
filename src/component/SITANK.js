@@ -38,7 +38,7 @@ function SITANK() {
             <img src="/image/Picture1.jpg" alt="Mentorship Partner" />
           </div>
           <div className="partner">
-            <img src="/image/Picture2.png" alt="Incubation Partner" />
+            <img src="/image/Picture2.png" alt="Incubation Partner" className='incubation'/>
           </div>
         </div>
         <button
@@ -48,7 +48,7 @@ function SITANK() {
           Register Now
         </button>
         <br />
-        <img src="/image/SITANK.jpg" alt="SITANK POSTER" className="image_SITank" />
+        <img src="/image/SITANK.jpg" alt="SITANK POSTER" className="pt-4 image_SITank" />
         <div className="details">
           <p>
             <strong>Date:</strong> 20th Feb, 2025
@@ -117,7 +117,7 @@ function SITANK() {
               Online Mentoring
             </button>
           </div>
-          <ul>
+          <ul className='pt-4'>
             <li>
               Track1: Elimination Round (Exact date and timings of the Elimination Round will be
               conveyed here soon.)

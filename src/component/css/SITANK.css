@@ -12,7 +12,11 @@ img{
   text-align: center;
   padding: 2rem;
 }
-
+.incubation{
+  width:auto;
+  height: 300px;
+  border-radius: 0px;
+}
 .logo {
   width: 150px;
   margin: 0 auto 1rem;
