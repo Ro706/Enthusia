@@ -55,7 +55,11 @@ With exciting prizes up for grabs, <b>SITNovate</b> is the ultimate arena for co
           <p className="timing">Exact timings of the event will be published here soon.</p>
         </div>
         <div className="contact">
-          {/* <p><strong>Contact persons:</strong> <span style={{color:"#949090"}}> M - 9960225056 , Mr.Tanay Kothari M - 9975578363</span></p> */}
+          <h2>Contact Us</h2>
+          <p>For any inquiries or further details, please contact:</p>
+          <p>SITNovation Team</p>
+          <p>Phone: +91 9975661769 , +91 9712935674</p>
+
         </div>
       </section>
       <footer className="footer">

@@ -77,7 +77,12 @@ function SITCodeSprint() {
           </div>
           <p className="timing">Exact timings of the event will be published here soon.</p>
         </div>
-        <div className="contact"></div>
+        <div className="contact">
+          <h2>Contact Us</h2>
+          <p>For any inquiries or further details, please contact:</p>
+          <p>SIT CodeSprint Team</p>
+          <p>Phone: +91 8411091219</p>
+        </div>
       </section>
       <footer className="footer">
         <p className='text-center'>&copy; 2025 Enthusia. All rights reserved.</p>
