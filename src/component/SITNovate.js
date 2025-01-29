@@ -23,7 +23,7 @@ Throughout the hackathon, participants will benefit from mentorship sessions, ha
 With exciting prizes up for grabs, <b>SITNovate</b> is the ultimate arena for coding enthusiasts, design aficionados, and problem-solvers to unleash their potential. Whether you're a seasoned developer or just starting out, <b>SITNovate</b> promises a memorable journey of innovation, teamwork, and discovery!
           </p>
         </div>
-        <button className="Register"  onClick={() => window.open("https://github.com/Ro706", "_blank")}>Register Now</button>
+        <button className="Register"  onClick={() => window.open("https://forms.gle/KGf7H5EJgw6TK6qp8", "_blank")}>Register Now</button>
         <div className="highlights">
           <h2>Key Highlights of the Event</h2>
           <div className="button-list">

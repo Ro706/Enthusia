@@ -46,7 +46,7 @@ function SITCodeSprint() {
             </button>
           )}
         </div>
-        <button className="Register" onClick={() => window.open("https://github.com/Ro706", "_blank")}>Register Now</button>
+        <button className="Register" onClick={() => window.open("https://forms.gle/h2dQGT2SYb4o9Zzo6", "_blank")}>Register Now</button>
         <div className="highlights">
           <h2>Key Highlights of the Event</h2>
           <div className="button-list">
