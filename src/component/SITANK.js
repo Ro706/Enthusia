@@ -142,6 +142,7 @@ function SITANK() {
           className="slideshow-image"
         />
       </section>
+      <br /><br />
       <footer className="footer"
       style={{
         paddingTop: '10px',
