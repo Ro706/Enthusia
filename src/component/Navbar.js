@@ -5,28 +5,27 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const email = e.target.Email.value;
-
+        
+        const email = e.target.Email.value.trim();
+        if (!email) return alert("Please enter a valid email address.");
+    
         try {
             const response = await fetch('https://enthusia-oi0b.onrender.com/api/subscribe', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ email }),
             });
-
+    
             const data = await response.json();
-            if (response.ok) {
-                alert(data.message);
-                e.target.reset();
-            } else {
-                alert(data.message);
-            }
+            alert(data.message);
+            if (response.ok) e.target.reset();
+    
         } catch (error) {
-            console.error('Error:', error);
-            alert('An error occurred. Please try again later.');
+            console.error('Request failed:', error);
+            alert('Network error. Please check your connection and try again.');
         }
     };
-
+    
     return (
         <div>
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">

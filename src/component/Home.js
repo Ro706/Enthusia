@@ -210,13 +210,6 @@ export default function Home() {
 <section className="last">
   <h2 className="text-center text-decoration-underline">Last Year's Highlights</h2>
   <div class="containers responsive"> 
-  {/* <motion.div
-            className="col-md-6"
-            initial={{ x: 100, opacity: 0 }}
-            whileInView={{ x: 0, opacity: 1 }}
-            viewport={{ once: true }}
-            transition={{ duration: 1 }}
-          > */}
         <iframe class="responsive-iframe" 
                 src="https://www.youtube.com/embed/A3X_rpkHKIg?autoplay=1&loop=1&playlist=A3X_rpkHKIg&controls=0&mute=1" 
                 title="YouTube video player" 
@@ -226,7 +219,6 @@ export default function Home() {
                 allowfullscreen 
                 style={{pointerEvents: "none", width: "100%", height: "100%"}}>
         </iframe>
-        {/* </motion.div> */}
       </div>
 </section>
 {/* Gallery Section */}
