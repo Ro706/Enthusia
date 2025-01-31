@@ -27,57 +27,60 @@ const Navbar = () => {
     };
     
     return (
-        <div>
-            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div className="container-fluid">
-                    <Link className="navbar-brand" to="/">
-                        <img src="favicon.png" alt="Symbiosis" />
-                    </Link>
-                    <button
-                        className="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent"
-                        aria-controls="navbarSupportedContent"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav mb-2 mb-lg-0 ms-auto">
-                            <li className="nav-item">
-                                <Link className="nav-link" aria-current="page" to="/">Home</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/About">About</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/SITNovate">SITNovate</Link>
-                            </li>
-                            {/* SITCodeSprint */}
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/SITCodeSprint">SITCodeSprint</Link>
-                            </li>
-                            {/* SITANK */}
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/SITANK">SITANK</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/Sponsor">Sponsor</Link>
-                            </li>
-                            <li className="nav-item">
-                                <Link className="nav-link" to="/Contact">Contact</Link>
-                            </li>
-                        </ul>
-                        <form className="d-flex ms-3" role="search" onSubmit={handleSubmit}>
-                            <input type="email" className="input" id="Email" name="Email" placeholder="example@gmail.com" autoComplete="off" />
-                            <input className="button--submit" value="Subscribe" type="submit" />
-                        </form>
-                    </div>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div className="container">
+                <Link className="navbar-brand d-flex align-items-center" to="/">
+                    <img
+                        src="favicon.png"
+                        alt="Symbiosis"
+                        className="nav-logo"
+                    />
+                </Link>
+                <button
+                    className="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul className="navbar-nav">
+                        <li className="nav-item">
+                            <a className="nav-link" href="https://sitnagpur.edu.in/">Register Now</a>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/">Home</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/About">About</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/SITNovate">SITNovate</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/SITCodeSprint">SITCodeSprint</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/SITANK">SITANK</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/Sponsor">Sponsor</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link" to="/Contact">Contact</Link>
+                        </li>
+                    </ul>
+                    <form className="d-flex ms-lg-3 mt-2 mt-lg-0" role="search" onSubmit={handleSubmit}>
+                        <input type="email" className="input" id="Email" name="Email" placeholder="example@gmail.com" autoComplete="off" />
+                        <input className="button--submit" value="Subscribe" type="submit" />
+                    </form>
                 </div>
-            </nav>
-        </div>
+            </div>
+        </nav>
     );
 }
 

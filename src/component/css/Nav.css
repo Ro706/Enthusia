@@ -46,3 +46,34 @@ img{
     color: white;
     width: 50px;
 }
+.navbar {
+  padding: 10px 20px;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  height: 50px;
+  background-color: #ccc;
+  border-radius: 10%;
+  padding: 4px;
+}
+
+.navbar-nav {
+  gap: 15px;
+}
+
+
+@media (max-width: 992px) {
+  .navbar-nav {
+      text-align: center;
+      width: 100%;
+  }
+}

@@ -221,7 +221,7 @@ export default function Home() {
         </iframe>
       </div>
 </section>
-{/* Gallery Section */}
+{/* Gallery Section */} 
 <section className="gallery responsive">
   <h2 className="text-center text-decoration-underline">Gallery</h2>
   <div className="gallery-container">
