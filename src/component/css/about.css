@@ -2,6 +2,11 @@
     font-family: "Audiowide", sans-serif;
     text-align: left;
   }
+@media (max-width: 768px)  {
+  #home{
+    margin-top: 100px;
+  }
+}
   
   .video video {
     display: block;
