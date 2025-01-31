@@ -28,28 +28,28 @@ With exciting prizes up for grabs, <b>SITNovate</b> is the ultimate arena for co
           <h2>Key Highlights of the Event</h2>
           <div className="button-list">
           <button className="highlight-button">
-            <img src="https://www.pngall.com/wp-content/uploads/5/Investment-PNG-Free-Image.png" alt="Investment Opportunity" />
-            Investment Opportunity
+            <img src="https://cdn-icons-png.flaticon.com/512/9669/9669634.png" alt="Investment Opportunity" />
+            24-Hour Hackathon
           </button>
           <button className="highlight-button">
-            <img src="https://planify-main.s3.amazonaws.com/media/images/documents/Seed_funding-01_1.png" alt="Potential Seed Funding" />
-            Potential Seed Funding
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/026/987/978/small_2x/single-one-line-drawing-two-young-businessmen-helping-each-other-to-go-up-to-pile-of-cogs-teamwork-people-trust-assistance-technology-gear-collaboration-solution-continuous-line-draw-design-png.png" alt="Potential Seed Funding" />
+            Team Collaboration
           </button>
           <button className="highlight-button">
             <img src="https://static.vecteezy.com/system/resources/previews/021/666/207/original/3d-trophy-cup-with-gift-boxes-and-award-medal-winner-with-prize-and-golden-cup-3d-rendering-png.png" alt="Attractive Prizes" />
-            Attractive Prizes
+            Exciting Prizes & Recognition
           </button>
           <button className="highlight-button">
-            <img src="https://static.vecteezy.com/system/resources/previews/014/179/558/original/certificate-icons-design-in-blue-circle-png.png" alt="Participation Certificate" />
-            Participation Certificate
+            <img src="https://static.vecteezy.com/system/resources/previews/014/432/446/non_2x/innovation-creativity-or-imagination-for-business-success-illustration-png.png" alt="Participation Certificate" />
+            Innovative Challenges
           </button>
           <button className="highlight-button">
-            <img src="https://cdn-icons-png.flaticon.com/512/6035/6035884.png" alt="Incubation Assistance" />
-            Incubation Assistance
+            <img src="https://www.pngplay.com/wp-content/uploads/7/Networking-Transparent-Background.png" alt="Incubation Assistance" />
+            Networking Opportunities
           </button>
           <button className="highlight-button">
             <img src="https://cdn-icons-png.flaticon.com/512/2344/2344491.png" alt="Online Mentoring" />
-            Online Mentoring
+            Unleash Your Potentia
           </button>
         </div>
           <p className="timing">Exact timings of the event will be published here soon.</p>
