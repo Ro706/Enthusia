@@ -168,7 +168,7 @@ export default function Home() {
       </section>
 
       {/* Sponsors Section */}
-      <section className="sponsor">
+      {/* <section className="sponsor">
       <motion.div
           className="marquee"
           initial={{ opacity: 0 }}
@@ -188,7 +188,7 @@ export default function Home() {
           </div>
         </div>
       </motion.div>
-      </section>
+      </section> */}
 
 
       {/* Events Section */}
