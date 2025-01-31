@@ -62,13 +62,13 @@ export default function Home() {
 
   return (
     <div className="home">
+       <ParticlesComponent id="particles" />
        <motion.div
       className="home"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     ></motion.div>
-         <ParticlesComponent id="particles" />
          <motion.h1
         className="text-center"
         initial={{ y: -50, opacity: 0 }}
