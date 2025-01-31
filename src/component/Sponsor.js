@@ -146,7 +146,7 @@ function Sponsor() {
        <header className="sponsor-header">
          <h1 className="text-center">Sponsors</h1>
          <p className="text-center">
-           We proudly acknowledge and thank all our sponsors for their invaluable support in making Enthusia 2024 a grand success!
+           We proudly acknowledge and thank all our sponsors for their invaluable support in making Enthusia 2025 a grand success!
          </p>
        </header>
         </div>
