@@ -59,3 +59,18 @@
   height: 100%;
   z-index: -1;
 }
+@media screen and (max-width: 768px) {
+  .sponsor-header h1 {
+    font-size: 2rem;
+  }
+  .sponsor-header p {
+    font-size: 1rem;
+  }
+  .Hackathon h2 {
+    font-size: 1.5rem;
+  }
+  .Devfolio {
+    width: 100px;
+  }
+  
+}
