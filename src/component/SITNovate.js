@@ -22,7 +22,7 @@ function SITNovate() {
     },
     {
       title: "Cloud Computing & Gaming",
-      icon: "https://cdn-icons-png.flaticon.com/512/4336/4336956.png"
+      icon: "https://th.bing.com/th/id/OIP.0C0QesqpqSCr9XieUl4PrQHaHa?rs=1&pid=ImgDetMain"
     },
     {
       title: "Data Science & Analytics",
