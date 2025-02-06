@@ -22,7 +22,7 @@ function SITNovate() {
     },
     {
       title: "Cloud Computing & Gaming",
-      icon: "https://www.pngrepo.com/download/261822/cloud-computing.png"
+      icon: "https://png.pngtree.com/png-clipart/20230417/original/pngtree-computing-cloud-flat-icon-png-image_9064525.png"
     },
     {
       title: "Data Science & Analytics",
