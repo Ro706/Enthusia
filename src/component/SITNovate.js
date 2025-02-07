@@ -55,7 +55,7 @@ function SITNovate() {
           </p>
         </div>
 
-        <button className="Register" onClick={() => window.open("https://forms.gle/KGf7H5EJgw6TK6qp8", "_blank")}>
+        <button className="Register" onClick={() => window.open("https://sit-novate.devfolio.co/", "_blank")}>
           Register Now
         </button>
 
