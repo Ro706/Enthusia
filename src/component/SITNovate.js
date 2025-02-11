@@ -21,7 +21,7 @@ function SITNovate() {
       icon: "https://cdn-icons-png.flaticon.com/512/1197/1197409.png"
     },
     {
-      title: "Cloud Computing & Gaming",
+      title: "Cloud Computing",
       icon: "https://png.pngtree.com/png-clipart/20230417/original/pngtree-computing-cloud-flat-icon-png-image_9064525.png"
     },
     {
