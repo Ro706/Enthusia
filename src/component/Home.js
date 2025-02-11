@@ -140,32 +140,38 @@ export default function Home() {
       </motion.div>
       {/* Timer Section */}
       <section className="timer">
-      <motion.h2
-          className="text-center"
-          initial={{ opacity: 0, scale: 0.5 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 1 }}
-        >Countdown to Enthusia</motion.h2>
-        <div className="timer-display">
-          <div className="time-item">
-            <span className="time-number">{timeLeft.days || 0}</span>
-            <span className="time-label">Days</span>
-          </div>
-          <div className="time-item">
-            <span className="time-number">{timeLeft.hours || 0}</span>
-            <span className="time-label">Hours</span>
-          </div>
-          <div className="time-item">
-            <span className="time-number">{timeLeft.minutes || 0}</span>
-            <span className="time-label">Minutes</span>
-          </div>
-          <div className="time-item">
-            <span className="time-number">{timeLeft.seconds || 0}</span>
-            <span className="time-label">Seconds</span>
-          </div>
-        </div>
-      </section>
+  <motion.h2
+    className="text-center"
+    initial={{ opacity: 0, scale: 0.5 }}
+    whileInView={{ opacity: 1, scale: 1 }}
+    viewport={{ once: true }}
+    transition={{ duration: 1 }}
+  >
+    Countdown to Enthusia
+  </motion.h2>
+  <div className="timer-display">
+    <div className="time-item">
+      <span className="time-number">{timeLeft.days || 0}</span>
+      <span className="time-label">Days</span>
+    </div>
+    <span className='pb-5'>:</span>
+    <div className="time-item">
+      <span className="time-number">{timeLeft.hours || 0}</span>
+      <span className="time-label">Hours</span>
+    </div>
+    <span className='pb-5'>:</span>
+    <div className="time-item">
+      <span className="time-number">{timeLeft.minutes || 0}</span>
+      <span className="time-label">Minutes</span>
+    </div>
+    <span className='pb-5'>:</span>
+    <div className="time-item">
+      <span className="time-number">{timeLeft.seconds || 0}</span>
+      <span className="time-label">Seconds</span>
+    </div>
+  </div>
+</section>
+
 
       {/* Sponsors Section */}
       {/* <section className="sponsor">
