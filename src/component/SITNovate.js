@@ -27,10 +27,6 @@ function SITNovate() {
     {
       title: "Data Science & Analytics",
       icon: "https://cdn-icons-png.flaticon.com/512/2821/2821637.png"
-    },
-    {
-      title: "Open Innovation",
-      icon: "https://cdn-icons-png.flaticon.com/512/1995/1995515.png"
     }
   ];
 
@@ -58,6 +54,18 @@ function SITNovate() {
         <button className="Register" onClick={() => window.open("https://sit-novate.devfolio.co/", "_blank")}>
           Register Now
         </button>
+        {/* <ul className="pt-4 text-left text-lg bg-dark border border-gray-300 rounded-lg p-4 shadow-md">
+          <h2>Important Notice:</h2>
+          <h4>Round 1:</h4>
+          <p>We would like to inform you that the first round will take place on 14th February 2025.</p>
+          <li>The problem statements will be shared in the WhatsApp group by 6:00 PM on the same day.</li>
+          <li>The deadline for PPT submission is 16th February 2025 by 12:00 PM.</li>
+          <li>The Result of Round 1 will be declared on 17th February 2025.</li>
+          <h4>Round 2:</h4>
+          <p>The final round will be conducted at Symbiosis campus on 19th February 2025, with only 40 teams qualifying for participation.</p>
+          <p>Further details will be provided on the official WhatsApp community page. We look forward to your participation!</p>
+        </ul> */}
+
 
         <div className="highlights">
           <h2>Key Highlights of the Event</h2>
