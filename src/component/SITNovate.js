@@ -116,7 +116,7 @@ function SITNovate() {
       <table className="min-w-full border border-gray-300 text-left text-sm text-gray-600">
         <thead>
           <tr className="bg-gray-100 text-gray-900">
-            <th className="border px-4 py-2">#</th>
+            <th className="border px-4 py-2">Sno.</th>
             <th className="border px-4 py-2">Date</th>
             <th className="border px-4 py-2">Time</th>
             <th className="border px-4 py-2">Event</th>
@@ -136,7 +136,16 @@ function SITNovate() {
         </tbody>
       </table>
     </div>
-    
+
+    {/* PPT and Judging Criteria  */}
+    <div className="ppt-judging">
+      <h2>PPT and Judging Criteria</h2>
+      <p>Participants are required to submit a PowerPoint presentation (PPT) as part of the initial round. The PPT should include the following details:</p>
+      <a href=""></a>
+      <p>The judging criteria for the PPT round will be based on the following parameters:</p>
+      <a href=""></a>
+    </div>
+
         <div className="highlights">
           <h2>Key Highlights of the Event</h2>
           <div className="button-list">
