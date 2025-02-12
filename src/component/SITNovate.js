@@ -60,6 +60,7 @@ function SITNovate() {
 
           <h4>Registration & Initial Steps</h4>
           <li>Registrations will close on <span className='text-danger'>14th February 2024 at 11:59 PM</span>.</li>
+          <li>Problem tracks, rules, guidelines, and PPT template will be shared in the WhatsApp group on <span className='text-danger'>15th February 2024 at 12:00 PM</span>.</li>
           <h4>Round 1: Online</h4>
           <li>The deadline for PPT submission is <span className='text-danger'>16th February 2024 at 12:00 PM</span>.</li>
           <li>Complete evaluation of PPTs to finalize the top 40 teams will be conducted on <span className='text-danger'>16th February 2024 at 5:00 PM</span>.</li>
