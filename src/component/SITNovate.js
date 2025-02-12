@@ -57,16 +57,19 @@ function SITNovate() {
         </button>
         <ul className="pt-4 text-left text-lg bg-dark border border-gray-300 rounded-lg p-4 shadow-md">
           <h2>Important Notice:</h2>
+
+          <h4>Registration & Initial Steps</h4>
+          <li>Registrations will close on <span className='text-danger'>14th February 2024 at 11:59 PM</span>.</li>
           <h4>Round 1: Online</h4>
-          <p>We would like to inform you that the first round will take place on <span className='text-danger'>14th February 2025</span>.</p>
-          <li>The problem statements will be shared in the WhatsApp group by <span className='text-danger'>6:00 PM on the same day</span>.</li>
-          <li>The deadline for PPT submission is <span className='text-danger'>16th February 2025 by 12:00 PM</span>.</li>
-          <li>The Result of Round 1 will be declared on <span className='text-danger'>17th February 2025</span>.</li>
-          <br />
+          <li>The deadline for PPT submission is <span className='text-danger'>16th February 2024 at 12:00 PM</span>.</li>
+          <li>Complete evaluation of PPTs to finalize the top 40 teams will be conducted on <span className='text-danger'>16th February 2024 at 5:00 PM</span>.</li>
+          <li>The final list of the top 40 teams will be posted in the WhatsApp group on <span className='text-danger'>16th February 2024 at 7:00 PM</span>.</li>
+
           <h4>Round 2: Offline</h4>
-          <p>The final round will be conducted at Symbiosis campus on <span className='text-danger'>19th February 2025</span>, with only 40 teams qualifying for participation.</p>
+          <p>The final round will be conducted at Symbiosis campus on <span className='text-danger'>19th February 2024</span>, with only 40 teams qualifying for participation.</p>
           <p>Further details will be provided on the official WhatsApp community page. We look forward to your participation!</p>
         </ul>
+
 
 
         <div className="highlights">
