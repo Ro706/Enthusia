@@ -3,6 +3,46 @@ import './css/SITNovate.css';
 import ParticlesComponent from './particles';
 
 function SITNovate() {
+  const schedule = [
+    { id: 1, date: '14-02-25', time: '11:59 PM', event: 'Registrations on Google Form and Devfolio Closed', location: 'Online' },
+    { id: 2, date: '15-02-25', time: '9:00 AM', event: 'Whatsapp Group formation with all participants', location: 'Online' },
+    { id: 3, date: '15-02-25', time: '12:00 PM', event: 'Posting on Whatsapp group problem tracks, rules, and guidelines, and PPT template', location: 'Online' },
+    { id: 4, date: '16-02-25', time: '12:00 PM', event: 'PPT Uploading deadline', location: 'Online' },
+    { id: 5, date: '16-02-25', time: '5:00 PM', event: 'Complete Evaluation of PPTs to finalize top 40 teams', location: 'Online' },
+    { id: 6, date: '16-02-25', time: '6:00 PM', event: 'Whatsapp group in community for only top 40 teams', location: 'Online' },
+    { id: 7, date: '16-02-25', time: '7:00 PM', event: 'Final Sheet top 40 posting on Whatsapp group', location: 'Online' },
+    { id: 8, date: '16-02-25', time: '8:00 PM', event: 'Posting of undertaking (Google Form)', location: 'Online' },
+    { id: 9, date: '19-02-25', time: '12:00 PM - 1:30 PM', event: 'Registration Desk and Welcome Kit', location: 'SIT Building Entrance' },
+    { id: 10, date: '19-02-25', time: '1:00 PM - 1:30 PM', event: 'Report Time at S-08', location: 'S-08' },
+    { id: 11, date: '19-02-25', time: '1:20 PM', event: 'Posting instructions video, rules and guidelines on Whatsapp', location: 'Online' },
+    { id: 12, date: '19-02-25', time: '1:00 PM - 1:15 PM', event: 'Briefing Instructions', location: 'S-08' },
+    { id: 13, date: '19-02-25', time: '1:15 PM - 1:30 PM', event: 'Inaugural Ceremony (Industry People) - HCL, GlobalLogic, Infosys, Tech Mahindra', location: 'S-08' },
+    { id: 14, date: '19-02-25', time: '1:35 PM', event: 'Ribbon Cutting Ceremony', location: 'In-front of S-08' },
+    { id: 15, date: '19-02-25', time: '1:40 PM - 2:00 PM', event: 'Countdown and Industry Insights', location: 'S-08' },
+    { id: 16, date: '19-02-25', time: '2:00 PM', event: 'Start of Hackathon', location: 'S-08' },
+    { id: 17, date: '19-02-25', time: '4:00 PM', event: 'Snacks', location: 'S-02' },
+    { id: 18, date: '19-02-25', time: '5:00 PM', event: 'Activity Check (GitHub Push)', location: 'Online' },
+    { id: 19, date: '19-02-25', time: '6:00 PM - 7:00 PM', event: 'Internal Faculty Visits and Progress Tracking', location: 'S-08' },
+    { id: 20, date: '19-02-25', time: '8:00 PM', event: 'Activity Check (GitHub Push)', location: 'Online' },
+    { id: 21, date: '19-02-25', time: '8:30 PM', event: 'Dinner', location: 'S-02' },
+    { id: 22, date: '19-02-25', time: '11:00 PM', event: 'Activity Check (GitHub Push)', location: 'Online' },
+    { id: 23, date: '20-02-25', time: '12:00 AM', event: 'Snacks', location: 'S-02' },
+    { id: 24, date: '20-02-25', time: '2:00 AM', event: 'Activity Check (GitHub Push)', location: 'Online' },
+    { id: 25, date: '20-02-25', time: '3:00 AM', event: 'Snacks', location: 'S-02' },
+    { id: 26, date: '20-02-25', time: '5:00 AM', event: 'Activity Check (GitHub Push)', location: 'Online' },
+    { id: 27, date: '20-02-25', time: '8:00 AM', event: 'Activity Check (GitHub Push)', location: 'Online' },
+    { id: 28, date: '20-02-25', time: '8:30 AM', event: 'Breakfast', location: 'S-02' },
+    { id: 29, date: '20-02-25', time: '11:00 AM', event: 'Activity Check (GitHub Push)', location: 'Online' },
+    { id: 30, date: '20-02-25', time: '11:00 AM', event: 'Final Phase Begins', location: 'S-08' },
+    { id: 31, date: '20-02-25', time: '2:00 PM', event: 'Time Ends', location: 'S-08' },
+    { id: 32, date: '20-02-25', time: '2:00 PM', event: 'Lunch', location: 'S-02' },
+    { id: 33, date: '20-02-25', time: '2:30 PM', event: 'Evaluation (6 rooms, total: 12 jury members)', location: 'S-08' },
+    { id: 34, date: '20-02-25', time: '4:00 PM', event: 'Complete Evaluation', location: 'S-08' },
+    { id: 35, date: '20-02-25', time: '4:00 PM', event: 'Distribute participation certificates', location: 'S-08' },
+    { id: 36, date: '20-02-25', time: '4:15 PM', event: 'Declare Results (Top 15)', location: 'S-08' },
+    { id: 37, date: '20-02-25', time: '4:15 PM - 4:45 PM', event: 'Questionaire Round', location: 'S-08' },
+    { id: 38, date: '20-02-25', time: '5:00 PM - 5:15 PM', event: 'Top 7 Winners Announcement', location: 'S-08' }
+  ];
   const themes = [
     {
       title: "AI/ML",
@@ -59,20 +99,44 @@ function SITNovate() {
           <h2>Important Notice:</h2>
 
           <h4>Registration & Initial Steps</h4>
-          <li>Registrations will close on <span className='text-danger'>14th February 2024 at 11:59 PM</span>.</li>
-          <li>Problem tracks, rules, guidelines, and PPT template will be shared in the WhatsApp group on <span className='text-danger'>15th February 2024 at 12:00 PM</span>.</li>
+          <li>Registrations will close on <span className='text-danger'>14th February 25 at 11:59 PM</span>.</li>
+          <li>Problem tracks, rules, guidelines, and PPT template will be shared in the WhatsApp group on <span className='text-danger'>15th February 25 at 12:00 PM</span>.</li>
           <h4>Round 1: Online</h4>
-          <li>The deadline for PPT submission is <span className='text-danger'>16th February 2024 at 12:00 PM</span>.</li>
-          <li>Complete evaluation of PPTs to finalize the top 40 teams will be conducted on <span className='text-danger'>16th February 2024 at 5:00 PM</span>.</li>
-          <li>The final list of the top 40 teams will be posted in the WhatsApp group on <span className='text-danger'>16th February 2024 at 7:00 PM</span>.</li>
+          <li>The deadline for PPT submission is <span className='text-danger'>16th February 25 at 12:00 PM</span>.</li>
+          <li>Complete evaluation of PPTs to finalize the top 40 teams will be conducted on <span className='text-danger'>16th February 25 at 5:00 PM</span>.</li>
+          <li>The final list of the top 40 teams will be posted in the WhatsApp group on <span className='text-danger'>16th February 25 at 7:00 PM</span>.</li>
 
           <h4>Round 2: Offline</h4>
-          <p>The final round will be conducted at Symbiosis campus on <span className='text-danger'>19th February 2024</span>, with only 40 teams qualifying for participation.</p>
+          <p>The final round will be conducted at Symbiosis campus on <span className='text-danger'>19th February 25</span>, with only 40 teams qualifying for participation.</p>
           <p>Further details will be provided on the official WhatsApp community page. We look forward to your participation!</p>
         </ul>
+        {/* Table */}
 
-
-
+        <div className="overflow-x-auto p-4">
+      <table className="min-w-full border border-gray-300 text-left text-sm text-gray-600">
+        <thead>
+          <tr className="bg-gray-100 text-gray-900">
+            <th className="border px-4 py-2">#</th>
+            <th className="border px-4 py-2">Date</th>
+            <th className="border px-4 py-2">Time</th>
+            <th className="border px-4 py-2">Event</th>
+            <th className="border px-4 py-2">Location</th>
+          </tr>
+        </thead>
+        <tbody>
+          {schedule.map((item) => (
+            <tr key={item.id} className="hover:bg-gray-50">
+              <td className="border px-4 py-2">{item.id}</td>
+              <td className="border px-4 py-2">{item.date}</td>
+              <td className="border px-4 py-2">{item.time}</td>
+              <td className="border px-4 py-2">{item.event}</td>
+              <td className="border px-4 py-2">{item.location}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+    
         <div className="highlights">
           <h2>Key Highlights of the Event</h2>
           <div className="button-list">
