@@ -36,12 +36,9 @@ function SITNovate() {
     { id: 30, date: '20-02-25', time: '11:00 AM', event: 'Final Phase Begins', location: 'S-08' },
     { id: 31, date: '20-02-25', time: '2:00 PM', event: 'Time Ends', location: 'S-08' },
     { id: 32, date: '20-02-25', time: '2:00 PM', event: 'Lunch', location: 'S-02' },
-    { id: 33, date: '20-02-25', time: '2:30 PM', event: 'Evaluation (6 rooms, total: 12 jury members)', location: 'S-08' },
-    { id: 34, date: '20-02-25', time: '4:00 PM', event: 'Complete Evaluation', location: 'S-08' },
-    { id: 35, date: '20-02-25', time: '4:00 PM', event: 'Distribute participation certificates', location: 'S-08' },
-    { id: 36, date: '20-02-25', time: '4:15 PM', event: 'Declare Results (Top 15)', location: 'S-08' },
-    { id: 37, date: '20-02-25', time: '4:15 PM - 4:45 PM', event: 'Questionaire Round', location: 'S-08' },
-    { id: 38, date: '20-02-25', time: '5:00 PM - 5:15 PM', event: 'Top 7 Winners Announcement', location: 'S-08' }
+    { id: 33, date: '20-02-25', time: '2:30 PM', event: 'Evaluation start', location: 'S-08' },
+    { id: 34, date: '20-02-25', time: '4:30 PM', event: 'Evaluation End', location: 'S-08' },
+    { id: 38, date: '20-02-25', time: '5:00 PM', event: 'Top 5 Winners Announcement', location: 'S-08' }
   ];
   const themes = [
     {
