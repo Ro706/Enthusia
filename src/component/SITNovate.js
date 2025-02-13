@@ -138,13 +138,20 @@ function SITNovate() {
     </div>
 
     {/* PPT and Judging Criteria  */}
-    <div className="ppt-judging">
-      <h2>PPT and Judging Criteria</h2>
-      <p>Participants are required to submit a PowerPoint presentation (PPT) as part of the initial round. The PPT should include the following details:</p>
-      <a href=""></a>
-      <p>The judging criteria for the PPT round will be based on the following parameters:</p>
-      <a href=""></a>
-    </div>
+<div className="ppt-judging">
+  <h2>PPT and Judging Criteria</h2>
+  <p>Participants are required to submit a PowerPoint presentation (PPT) as part of the initial round. The PPT should include the following details:</p>
+  <a href="SITnovatePresentationTemplate.pptx" download>
+    <button className="Register">Download PPT 1</button>
+  </a>
+
+  <p>The judging criteria for the PPT round will be based on the following parameters:</p>
+  
+  <a href="Event_Judging_Criteria.docx" download>
+    <button className="Register">Download Judging Criteria (Word)</button>
+  </a>
+</div>
+
 
         <div className="highlights">
           <h2>Key Highlights of the Event</h2>
