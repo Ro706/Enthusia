@@ -17,6 +17,9 @@ function SITNovate() {
     { id: 11, date: '20-02-25', time: '11:00 AM', event: 'Final Phase Begins', location: 'S-08' },
     { id: 12, date: '20-02-25', time: '02:00 PM', event: 'Hackathon Ends', location: 'S-08' },
     { id: 13, date: '20-02-25', time: '02:30 PM', event: 'Evaluation Start', location: 'S-08' },
+    { id: 14, date: '20-02-25', time: '04:30 PM', event: 'Distribute participation certificates', location: 'S-08' },
+    { id: 15, date: '20-02-25', time: '04:30 PM', event: 'Evaluation End', location: 'S-08' },
+    { id: 16, date: '20-02-25', time: '5:00 PM', event: 'Top 5 Winners Announcement', location: 'S-08' }
 ];
   const themes = [
     {
@@ -78,13 +81,13 @@ function SITNovate() {
 
           <h4>Registration & Initial Steps</h4>
           <li>Registrations on Google Form and Devfolio will close on <span className='text-danger'>14th February 2025 at 11:59 PM</span>.</li>
-          <li>Problem statements for Round 1 will be released on <span className='text-danger'>14th February 2025 at 11:59 PM</span> on both the <b>official website</b> and <b>WhatsApp</b>.</li>
-          <li>The <b>PPT template</b> is already available on the official website.</li>
+          <li>Problem statements for Round 1 will be released on <span className='text-danger'>14th February 2025 at 11:59 PM</span> on both the <b>website</b> and <b>WhatsApp</b>.</li>
+          <li>The <b>PPT template</b> is already present below on the website.</li>
 
           <h4>Round 1: Online</h4>
           <li>PPT submission will be open from <span className='text-danger'>15th February 2025 at 11:59 AM</span> to <span className='text-danger'>16th February 2025 at 11:59 AM</span>.</li>
-          <li>Submissions can be made through both the <b>official website</b> and <b>WhatsApp</b>.</li>
-          <li>The list of the <b>top 40 teams</b> will be announced on <span className='text-danger'>16th February 2025 between 6:00 PM – 8:00 PM</span> on both the <b>official website</b> and <b>WhatsApp</b>.</li>
+          <li>Submissions can be made through both the <b>website</b> and <b>WhatsApp</b>.</li>
+          <li>The list of the <b>top 40 teams</b> will be announced on <span className='text-danger'>16th February 2025 between 6:00 PM – 8:00 PM</span> on both the <b>website</b> and <b>WhatsApp</b>.</li>
 
           <h4>Round 2: Offline</h4>
           <p>The final round will take place at <b>Symbiosis Institute of Technology</b> on <span className='text-danger'>19th February 2025</span>, with the top 40 teams qualifying for participation.</p>
