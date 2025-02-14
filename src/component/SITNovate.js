@@ -141,12 +141,12 @@ function SITNovate() {
     <button className="Register">Download PPT 1</button>
   </a>
 
-  <p>The judging criteria for the PPT round will be based on the following parameters:</p>
+  {/* <p>The judging criteria for the PPT round will be based on the following parameters:</p>
   
   <a href="Event_Judging_Criteria.docx" download>
     <button className="Register">Download Judging Criteria (Word)</button>
   </a>
-</div>
+</div> */}
 
 
         <div className="highlights">
