@@ -132,7 +132,7 @@ function SITNovate() {
     {/* PPT and Judging Criteria  */}
 <div className="ppt-judging">
   <h2>Problem Statements (round 1)</h2>
-  <a href="Round-1_ProblemStatements.pdf" download>
+  <a href="Round-1ProblemStatements.pdf" download>
     <button className="Register">Download Problem Statements</button>
   </a>
   <h2>PPT and Judging Criteria</h2>
