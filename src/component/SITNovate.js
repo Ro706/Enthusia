@@ -5,7 +5,7 @@ import ParticlesComponent from './particles';
 function SITNovate() {
   const schedule = [
     { id: 1, date: '14-02-25', time: '11:59 PM', event: 'Registrations on Google Form and Devfolio Closed', location: ' ' },
-    { id: 2, date: '15-02-25', time: '11:59 AM', event: 'Problem Statements for Round-1 Declared', location: 'Online' },
+    { id: 2, date: '14-02-25', time: '11:59 PM', event: 'Problem Statements for Round-1 Declared', location: 'Online' },
     { id: 3, date: '16-02-25', time: '11:59 PM', event: 'Round-1 Closes. PPT Submission Deadline', location: 'Online' },
     { id: 4, date: '16-02-25', time: '9:00 PM', event: 'Round-1 Winners Declaration', location: 'Online' },
     { id: 5, date: '19-02-25', time: '11:59 AM - 1:30 PM', event: 'Report Time', location: 'S-08' },
