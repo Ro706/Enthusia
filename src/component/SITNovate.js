@@ -4,19 +4,20 @@ import ParticlesComponent from './particles';
 
 function SITNovate() {
   const schedule = [
-    { id: 1, date: '14-02-25', time: '11:59 PM', event: 'Registrations on Google Form and Devfolio Closed', location: ' ' },
-    { id: 2, date: '14-02-25', time: '11:59 PM', event: 'Problem Statements for Round-1 Declared', location: 'Online' },
-    { id: 3, date: '15-02-25', time: '11:59 PM', event: 'Round-1 Closes. PPT Submission Deadline', location: 'Online' },
-    { id: 4, date: '16-02-25', time: '08:00 PM', event: 'Round-1 Winners Declaration', location: 'Online' },
-    { id: 5, date: '19-02-25', time: '11:59 AM - 01:30 PM', event: 'Report Time', location: 'S-08' },
-    { id: 6, date: '19-02-25', time: '11:59 AM - 01:30 PM', event: 'Registration Desk and Welcome Kit', location: 'SIT Building Entrance' },
-    { id: 7, date: '19-02-25', time: '01:15 PM - 01:30 PM', event: 'Inaugural Ceremony (Industry People)', location: 'S-08' },
-    { id: 8, date: '19-02-25', time: '01:45 PM', event: 'Hackathon Briefing', location: 'S-08' },
-    { id: 9, date: '19-02-25', time: '02:00 PM', event: 'Hackathon Start', location: 'S-08' },
-    { id: 10, date: '20-02-25', time: '11:00 AM', event: 'Final Phase Begins', location: 'S-08' },
-    { id: 11, date: '20-02-25', time: '02:00 PM', event: 'Hackathon Ends', location: 'S-08' },
-    { id: 12, date: '20-02-25', time: '02:30 PM', event: 'Evaluation Start', location: 'S-08' },
-  ];
+    { id: 1, date: '14-02-25', time: '11:59 PM', event: 'Registrations Closed', location: '-' },
+    { id: 2, date: '14-02-25', time: '11:59 AM', event: 'Problem Statements for Round-1 Declared', location: 'Online' },
+    { id: 3, date: '15-02-25', time: '11:59 AM', event: 'Round-1 PPT Submission Begins', location: 'Online' },
+    { id: 4, date: '16-02-25', time: '11:59 AM', event: 'Round-1 PPT Submission Deadline', location: 'Online' },
+    { id: 5, date: '16-02-25', time: '07:00 PM - 09:00 PM', event: 'Round-1 Winners Declaration', location: 'Online' },
+    { id: 6, date: '19-02-25', time: '11:59 AM - 01:30 PM', event: 'Report Time', location: 'S-08' },
+    { id: 7, date: '19-02-25', time: '11:59 AM - 01:30 PM', event: 'Registration Desk and Welcome Kit', location: 'SIT Building Entrance' },
+    { id: 8, date: '19-02-25', time: '01:15 PM - 01:30 PM', event: 'Inaugural Ceremony (Industry People)', location: 'S-08' },
+    { id: 9, date: '19-02-25', time: '01:45 PM', event: 'Hackathon Briefing', location: 'S-08' },
+    { id: 10, date: '19-02-25', time: '02:00 PM', event: 'Hackathon Start', location: 'S-08' },
+    { id: 11, date: '20-02-25', time: '11:00 AM', event: 'Final Phase Begins', location: 'S-08' },
+    { id: 12, date: '20-02-25', time: '02:00 PM', event: 'Hackathon Ends', location: 'S-08' },
+    { id: 13, date: '20-02-25', time: '02:30 PM', event: 'Evaluation Start', location: 'S-08' },
+];
   const themes = [
     {
       title: "AI/ML",
@@ -100,7 +101,7 @@ function SITNovate() {
 
         {/* Table */}
 
-        {/* <div className="overflow-x-auto p-4">
+        <div className="overflow-x-auto p-4">
       <table className="min-w-full border border-gray-300 text-left text-sm text-gray-600">
         <thead>
           <tr className="bg-gray-100 text-gray-900">
@@ -123,7 +124,7 @@ function SITNovate() {
           ))}
         </tbody>
       </table>
-    </div> */}
+    </div>
 
     {/* PPT and Judging Criteria  */}
 <div className="ppt-judging">
