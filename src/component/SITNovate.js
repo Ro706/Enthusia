@@ -17,7 +17,7 @@ function SITNovate() {
     { id: 11, date: '20-02-25', time: '11:00 AM', event: 'Final Phase Begins', location: 'S-08' },
     { id: 12, date: '20-02-25', time: '02:00 PM', event: 'Hackathon Ends', location: 'S-08' },
     { id: 13, date: '20-02-25', time: '02:30 PM', event: 'Evaluation Start', location: 'S-08' },
-    { id: 14, date: '20-02-25', time: '04:30 PM', event: 'Distribute participation certificates', location: 'S-08' },
+    { id: 14, date: '20-02-25', time: '04:15 PM', event: 'Distribute participation certificates', location: 'S-08' },
     { id: 15, date: '20-02-25', time: '04:30 PM', event: 'Evaluation End', location: 'S-08' },
     { id: 16, date: '20-02-25', time: '5:00 PM', event: 'Top 5 Winners Announcement', location: 'S-08' }
 ];
