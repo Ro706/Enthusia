@@ -6,13 +6,13 @@ function SITNovate() {
   const schedule = [
     { id: 1, date: '14-02-25', time: '11:59 PM', event: 'Registrations on Google Form and Devfolio Closed', location: ' ' },
     { id: 2, date: '14-02-25', time: '11:59 PM', event: 'Problem Statements for Round-1 Declared', location: 'Online' },
-    { id: 3, date: '16-02-25', time: '11:59 PM', event: 'Round-1 Closes. PPT Submission Deadline', location: 'Online' },
-    { id: 4, date: '16-02-25', time: '9:00 PM', event: 'Round-1 Winners Declaration', location: 'Online' },
-    { id: 5, date: '19-02-25', time: '11:59 AM - 1:30 PM', event: 'Report Time', location: 'S-08' },
-    { id: 6, date: '19-02-25', time: '11:59 AM - 1:30 PM', event: 'Registration Desk and Welcome Kit', location: 'SIT Building Entrance' },
-    { id: 7, date: '19-02-25', time: '1:15 PM - 1:30 PM', event: 'Inaugural Ceremony (Industry People)', location: 'S-08' },
-    { id: 8, date: '19-02-25', time: '1:45 PM', event: 'Hackathon Briefing', location: 'S-08' },
-    { id: 9, date: '19-02-25', time: '2:00 PM', event: 'Hackathon Start', location: 'S-08' },
+    { id: 3, date: '15-02-25', time: '11:59 PM', event: 'Round-1 Closes. PPT Submission Deadline', location: 'Online' },
+    { id: 4, date: '16-02-25', time: '08:00 PM', event: 'Round-1 Winners Declaration', location: 'Online' },
+    { id: 5, date: '19-02-25', time: '11:59 AM - 01:30 PM', event: 'Report Time', location: 'S-08' },
+    { id: 6, date: '19-02-25', time: '11:59 AM - 01:30 PM', event: 'Registration Desk and Welcome Kit', location: 'SIT Building Entrance' },
+    { id: 7, date: '19-02-25', time: '01:15 PM - 01:30 PM', event: 'Inaugural Ceremony (Industry People)', location: 'S-08' },
+    { id: 8, date: '19-02-25', time: '01:45 PM', event: 'Hackathon Briefing', location: 'S-08' },
+    { id: 9, date: '19-02-25', time: '02:00 PM', event: 'Hackathon Start', location: 'S-08' },
     { id: 10, date: '20-02-25', time: '11:00 AM', event: 'Final Phase Begins', location: 'S-08' },
     { id: 11, date: '20-02-25', time: '02:00 PM', event: 'Hackathon Ends', location: 'S-08' },
     { id: 12, date: '20-02-25', time: '02:30 PM', event: 'Evaluation Start', location: 'S-08' },
@@ -72,24 +72,35 @@ function SITNovate() {
         <button className="Register" onClick={() => window.open("https://sit-novate.devfolio.co/", "_blank")}>
           Register Now
         </button>
-        <ul className="pt-4 text-left text-lg bg-dark border border-gray-300 rounded-lg p-4 shadow-md">
-          <h2>Important Notice:</h2>
+        <ul className="pt-4 text-left text-lg  border border-gray-300 rounded-lg p-4 shadow-md">
+  <h2>Important Notice:</h2>
 
-          <h4>Registration & Initial Steps</h4>
-          <li>Registrations will close on <span className='text-danger'>14th February 25 at 11:59 PM</span>.</li>
-          <li>Problem tracks, rules, guidelines, and PPT template will be shared in the WhatsApp group on <span className='text-danger'>15th February 25 at 12:00 PM</span>.</li>
-          <h4>Round 1: Online</h4>
-          <li>The deadline for PPT submission is <span className='text-danger'>16th February 25 at 12:00 PM</span>.</li>
-          <li>Complete evaluation of PPTs to finalize the top 40 teams will be conducted on <span className='text-danger'>16th February 25 at 5:00 PM</span>.</li>
-          <li>The final list of the top 40 teams will be posted in the WhatsApp group on <span className='text-danger'>16th February 25 at 7:00 PM</span>.</li>
+  <h4>Registration & Initial Steps</h4>
+  <li>Registrations on Google Form and Devfolio will close on <span className='text-danger'>14th February 2025 at 11:59 PM</span>.</li>
+  <li>Problem statements for Round 1 will be released on <span className='text-danger'>14th February 2025 at 11:59 PM</span> on both the <b>official website</b> and <b>WhatsApp</b>.</li>
+  <li>The <b>PPT template</b> is already available on the official website.</li>
 
-          <h4>Round 2: Offline</h4>
-          <p>The final round will be conducted at Symbiosis campus on <span className='text-danger'>19th February 25</span>, with only 40 teams qualifying for participation.</p>
-          <p>Further details will be provided on the official WhatsApp community page. We look forward to your participation!</p>
-        </ul>
+  <h4>Round 1: Online</h4>
+  <li>PPT submission will be open from <span className='text-danger'>15th February 2025 at 11:59 AM</span> to <span className='text-danger'>16th February 2025 at 11:59 AM</span>.</li>
+  <li>Submissions can be made through both the <b>official website</b> and <b>WhatsApp</b>.</li>
+  <li>The list of the <b>top 40 teams</b> will be announced on <span className='text-danger'>16th February 2025 between 6:00 PM – 8:00 PM</span> on both the <b>official website</b> and <b>WhatsApp</b>.</li>
+
+  <h4>Round 2: Offline</h4>
+  <p>The final round will take place at <b>Symbiosis Institute of Technology</b> on <span className='text-danger'>19th February 2025</span>, with the top 40 teams qualifying for participation.</p>
+  <li>Participants must report between <span className='text-danger'>11:59 AM - 1:30 PM</span> at <span className='text-danger'>S-08</span>.</li>
+  <li>The registration desk and welcome kit distribution will be at the <span className='text-danger'>SIT Building Entrance</span> during the same time.</li>
+  <li>The hackathon briefing will start at <span className='text-danger'>1:45 PM</span>, followed by the official hackathon kickoff at <span className='text-danger'>2:00 PM</span> in <span className='text-danger'>S-08</span>.</li>
+
+  <h4>Final Phase</h4>
+  <li>The final phase begins on <span className='text-danger'>20th February 2025 at 11:00 AM</span> in <span className='text-danger'>S-08</span>.</li>
+  <li>The hackathon will conclude on <span className='text-danger'>20th February 2025 at 2:00 PM</span>, followed by the evaluation process starting at <span className='text-danger'>2:30 PM</span> in <span className='text-danger'>S-08</span>.</li>
+
+  <p>Further details will be provided on the <b>official WhatsApp community page</b>. We look forward to your participation!</p>
+</ul>
+
         {/* Table */}
 
-        <div className="overflow-x-auto p-4">
+        {/* <div className="overflow-x-auto p-4">
       <table className="min-w-full border border-gray-300 text-left text-sm text-gray-600">
         <thead>
           <tr className="bg-gray-100 text-gray-900">
@@ -112,7 +123,7 @@ function SITNovate() {
           ))}
         </tbody>
       </table>
-    </div>
+    </div> */}
 
     {/* PPT and Judging Criteria  */}
 <div className="ppt-judging">
