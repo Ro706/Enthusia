@@ -83,12 +83,15 @@ function SITNovate() {
             With exciting prizes up for grabs, <b>SITNovate</b> is the ultimate arena for coding enthusiasts, design aficionados, and problem-solvers to unleash their potential. Whether you're a seasoned developer or just starting out, <b>SITNovate</b> promises a memorable journey of innovation, teamwork, and discovery!
           </p>
         </div>
-        <p>Step 1:</p>
+        {/* <p>Step 1:</p>
         <button className="Register" onClick={() => window.open("https://forms.gle/KGf7H5EJgw6TK6qp8", "_blank")}>
           Register Now
         </button>
         <br />
         <p>Step 2:</p>
+        <button className="Register" onClick={() => window.open("https://sit-novate.devfolio.co/", "_blank")}>
+          Register Now
+        </button> */}
         <button className="Register" onClick={() => window.open("https://sit-novate.devfolio.co/", "_blank")}>
           Register Now
         </button>
