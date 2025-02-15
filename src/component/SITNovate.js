@@ -135,7 +135,8 @@ function SITNovate() {
   <a href="Round-1ProblemStatements.pdf" download>
     <button className="Register">Download Problem Statements</button>
   </a>
-  <h3>PPT and Judging Criteria</h3>
+  {/* <h3>PPT and Judging Criteria</h3> */}
+  <h3>PPT Template</h3>
   <p>Participants are required to submit a PowerPoint presentation (PPT) as part of the initial round. The PPT should include the following details:</p>
   <a href="SITnovatePresentationTemplate.pptx" download>
     <button className="Register">Download PPT 1</button>
