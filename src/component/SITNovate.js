@@ -73,9 +73,9 @@ function SITNovate() {
         <button className="Register" onClick={() => window.open("https://sit-novate.devfolio.co/", "_blank")}>
           Register Now
         </button> */}
-        {/* onClick={() => window.open("", "_blank")} */}
-        <button className="Register">
-          Register Now
+        {/* onClick={() => window.open("https://forms.gle/FDuj24rewGS5hPmU7", "_blank")} */}
+        <button className="Register" onClick={() => window.open("https://forms.gle/FDuj24rewGS5hPmU7", "_blank")}>
+          Upload your PPT
         </button>
         <ul className="pt-4 text-left text-lg  border border-gray-300 rounded-lg p-4 shadow-md">
           <h2>Important Notice:</h2>
