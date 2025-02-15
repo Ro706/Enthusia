@@ -73,7 +73,8 @@ function SITNovate() {
         <button className="Register" onClick={() => window.open("https://sit-novate.devfolio.co/", "_blank")}>
           Register Now
         </button> */}
-        <button className="Register" onClick={() => window.open("https://sit-novate.devfolio.co/", "_blank")}>
+        {/* onClick={() => window.open("", "_blank")} */}
+        <button className="Register">
           Register Now
         </button>
         <ul className="pt-4 text-left text-lg  border border-gray-300 rounded-lg p-4 shadow-md">
