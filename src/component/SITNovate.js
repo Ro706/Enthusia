@@ -75,7 +75,7 @@ function SITNovate() {
         </button>
         <ul className="pt-4 text-left text-lg  border border-gray-300 rounded-lg p-4 shadow-md">
           <h2>Important Notice:</h2>
-          <p className='text-danger'>IT IS COMPULSORY FOR ALL MEMBERS TO REGISTER ON INSTERRAI: <a href="https://insterra.ai/" target="_blank" rel="noreferrer">URL</a></p>
+          <p className='text-danger'>IT IS COMPULSORY FOR ALL MEMBERS TO REGISTER ON INSTERRA AI: <a href="https://insterra.ai/" target="_blank" rel="noreferrer">URL</a></p>
           <h4>Registration & Initial Steps</h4>
           <li>Registrations on Google Form and Devfolio will close on <span className='text-danger'>14th February 2025 at 11:59 PM</span>.</li>
           <li>Problem statements for Round 1 will be released on <span className='text-danger'>14th February 2025 at 11:59 PM</span> on both the <b>website</b> and <b>WhatsApp</b>.</li>
@@ -137,12 +137,12 @@ function SITNovate() {
   <a href="SITnovateRuleBook.pdf" download>
     <button className="Register">Rule Book</button>
   </a>
-{/* 
+
   <p>The judging criteria for the PPT round will be based on the following parameters:</p>
   
   <a href="Event_Judging_Criteria.docx" download>
     <button className="Register">Download Judging Criteria (Word)</button>
-  </a> */}
+  </a>
 </div>
 
 
