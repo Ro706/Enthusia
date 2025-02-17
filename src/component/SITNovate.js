@@ -20,7 +20,7 @@ function SITNovate() {
     { id: 14, date: '20-02-25', time: '04:15 PM', event: 'Distribute participation certificates', location: 'S-08' },
     { id: 15, date: '20-02-25', time: '04:30 PM', event: 'Evaluation End', location: 'S-08' },
     { id: 16, date: '20-02-25', time: '5:00 PM', event: 'Top 5 Winners Announcement', location: 'S-08' }
-];
+  ];
   const themes = [
     {
       title: "AI/ML",
@@ -65,7 +65,6 @@ function SITNovate() {
           </p>
         </div>
         <h3>PPT Template</h3>
-    {/* <p>Participants are required to submit a PowerPoint presentation (PPT) as part of the initial round. The PPT should include the following details:</p> */}
         <a href="SITnovatePresentationTemplate.pptx" download>
           <button className="Register">PPT Template</button>
         </a>
@@ -99,51 +98,51 @@ function SITNovate() {
           <p>Further details will be provided on the <b>official WhatsApp community page</b>. We look forward to your participation!</p>
         </ul>
 
-        {/* Table */}
-
+        {/* Table with Center Alignment */}
         <div className="overflow-x-auto p-4">
-      <table className="min-w-full border border-gray-300 text-left text-sm text-gray-600">
-        <thead>
-          <tr className="bg-gray-100 text-gray-900">
-            <th className="border px-4 py-2">Sno.</th>
-            <th className="border px-4 py-2">Date</th>
-            <th className="border px-4 py-2">Time</th>
-            <th className="border px-4 py-2">Event</th>
-            <th className="border px-4 py-2">Location</th>
-          </tr>
-        </thead>
-        <tbody>
-          {schedule.map((item) => (
-            <tr key={item.id} className="hover:bg-gray-50">
-              <td className="border px-4 py-2">{item.id}</td>
-              <td className="border px-4 py-2">{item.date}</td>
-              <td className="border px-4 py-2">{item.time}</td>
-              <td className="border px-4 py-2">{item.event}</td>
-              <td className="border px-4 py-2">{item.location}</td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
-    </div>
+          <div className="flex justify-center">
+            <table className="min-w-full border border-gray-300 text-center text-sm text-gray-600">
+              <thead>
+                <tr className="bg-gray-100 text-gray-900">
+                  <th className="border px-4 py-2 text-center">Sno.</th>
+                  <th className="border px-4 py-2 text-center">Date</th>
+                  <th className="border px-4 py-2 text-center">Time</th>
+                  <th className="border px-4 py-2 text-center">Event</th>
+                  <th className="border px-4 py-2 text-center">Location</th>
+                </tr>
+              </thead>
+              <tbody>
+                {schedule.map((item) => (
+                  <tr key={item.id} className="hover:bg-gray-50">
+                    <td className="border px-4 py-2 text-center">{item.id}</td>
+                    <td className="border px-4 py-2 text-center">{item.date}</td>
+                    <td className="border px-4 py-2 text-center">{item.time}</td>
+                    <td className="border px-4 py-2 text-center">{item.event}</td>
+                    <td className="border px-4 py-2 text-center">{item.location}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
 
-    {/* PPT and Judging Criteria  */}
-<div className="ppt-judging">
-  <h3>Problem Statements (round 1)</h3>
-  <a href="Round-1ProblemStatements.pdf" download>
-    <button className="Register">Problem Statements</button>
-  </a>
-  {/* <h3>PPT and Judging Criteria</h3> */}
-  <h3>SITnovate Rule Book</h3>
-  <a href="SITnovateRuleBook.pdf" download>
-    <button className="Register">Rule Book</button>
-  </a>
+        {/* PPT and Judging Criteria  */}
+        <div className="ppt-judging">
+          <h3>Problem Statements (round 1)</h3>
+          <a href="Round-1ProblemStatements.pdf" download>
+            <button className="Register">Problem Statements</button>
+          </a>
+          <h3>SITnovate Rule Book</h3>
+          <a href="SITnovateRuleBook.pdf" download>
+            <button className="Register">Rule Book</button>
+          </a>
 
-  <p>The judging criteria for the PPT round will be based on the following parameters:</p>
-  
-  <a href="Event_Judging_Criteria.docx" download>
-    <button className="Register">Download Judging Criteria (Word)</button>
-  </a>
-</div>
+          <p>The judging criteria for the PPT round will be based on the following parameters:</p>
+          
+          <a href="Event_Judging_Criteria.docx" download>
+            <button className="Register">Download Judging Criteria (Word)</button>
+          </a>
+        </div>
 
 
         <div className="highlights pt-3">

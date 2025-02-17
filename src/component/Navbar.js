@@ -50,7 +50,7 @@ const Navbar = () => {
                 <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link" href="https://sitnagpur.edu.in/">About SIT Nagpur</a>
+                            <a className="nav-link" href="https://sitnagpur.edu.in/">SIT Nagpur</a>
                         </li>
                         <li className="nav-item">
                             <Link className="nav-link" to="/">Home</Link>
