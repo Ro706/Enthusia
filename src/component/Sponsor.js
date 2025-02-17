@@ -162,7 +162,6 @@ function Sponsor() {
         <img src="https://cdn.freelogovectors.net/wp-content/uploads/2023/05/polygon-logo-freelogovectors.net_.png" alt="Devfolio" className='Devfolio'/>
         <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/logos/blue/Unstop-Logo-Blue-Small.jpg" alt="unstop" className='Devfolio' />
         <img src="https://cdn.freelogovectors.net/wp-content/uploads/2023/05/polygon-logo-freelogovectors.net_.png" alt="Devfolio" className='Devfolio'/>
-        <h2 className='text-center mt-5'>Hackathon Technical Sponsors</h2>
         <img src={pbCreation} alt="pbCreation" className="Devfolio" />
         </section>
     </div>
