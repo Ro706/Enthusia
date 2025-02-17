@@ -161,7 +161,6 @@ function Sponsor() {
         <img src="https://devfolio.co/blog/content/images/size/w1000/2021/04/ethindia-1.jpg" alt="Devfolio" className='Devfolio'/>
         <img src="https://cdn.freelogovectors.net/wp-content/uploads/2023/05/polygon-logo-freelogovectors.net_.png" alt="Devfolio" className='Devfolio'/>
         <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/logos/blue/Unstop-Logo-Blue-Small.jpg" alt="unstop" className='Devfolio' />
-        <img src="https://cdn.freelogovectors.net/wp-content/uploads/2023/05/polygon-logo-freelogovectors.net_.png" alt="Devfolio" className='Devfolio'/>
         <img src={pbCreation} alt="pbCreation" className="Devfolio" />
         </section>
     </div>
