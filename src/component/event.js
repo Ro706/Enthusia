@@ -74,7 +74,7 @@ const Events = () => {
     {
       title: 'SITNovate',
       description: 'Enthusia 4.0, the annual flagship event of SIT Nagpur, features a thrilling 24-hour offline Hackathon as its mega event. Open to participants from across India, this SITNovate invites teams of 2-3 talented individuals to gather at our campus to tackle challenging real-world problem statements, showcasing their coding prowess and problem-solving skills in an intense and inspiring environment. This Hackathon provides an exceptional platform for students to engage with cutting-edge technology, network with like-minded peers, and turn ideas into impactful solutions.',
-      imageUrl: './image/sitNovet.jpg',
+      imageUrl: './image/sitNovet.png',
       applyLink: '/SITNovate',
       wordLimit: 30,
       imageWidth: '100%',
