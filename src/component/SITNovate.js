@@ -64,14 +64,14 @@ function SITNovate() {
             With exciting prizes up for grabs, <b>SITNovate</b> is the ultimate arena for coding enthusiasts, design aficionados, and problem-solvers to unleash their potential. Whether you're a seasoned developer or just starting out, <b>SITNovate</b> promises a memorable journey of innovation, teamwork, and discovery!
           </p>
         </div>
-        <h3>PPT Template</h3>
+        {/* <h3>PPT Template</h3>
         <a href="SITnovatePresentationTemplate.pptx" download>
           <button className="Register">PPT Template</button>
         </a>
         <h3>PPT submission</h3>
         <button className="Register" onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLScW6h51_-x0zPLMiE5ULamhXPIi1otojHTmiJGh3Dww-40v6Q/viewform", "_blank")}>
           Upload your PPT
-        </button>
+        </button> */}
         <ul className="pt-4 text-left text-lg  border border-gray-300 rounded-lg p-4 shadow-md">
           <h2>Important Notice:</h2>
           <p className='text-danger'>IT IS COMPULSORY FOR ALL MEMBERS TO REGISTER ON INSTERRA AI: <a href="https://insterra.ai/" target="_blank" rel="noreferrer">URL</a></p>
@@ -128,10 +128,10 @@ function SITNovate() {
 
         {/* PPT and Judging Criteria  */}
         <div className="ppt-judging">
-          <h3>Problem Statements (round 1)</h3>
+          {/* <h3>Problem Statements (round 1)</h3>
           <a href="Round-1ProblemStatements.pdf" download>
             <button className="Register">Problem Statements</button>
-          </a>
+          </a> */}
           <h3>SITnovate Rule Book</h3>
           <a href="SITnovateRuleBook.pdf" download>
             <button className="Register">Rule Book</button>
