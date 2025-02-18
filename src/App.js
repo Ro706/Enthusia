@@ -9,6 +9,7 @@ import Contact from './component/Contact';
 import SITNovate from './component/SITNovate';
 import SITCodeSprint from './component/SITCodeSprint';
 import SITANK from './component/SITANK';
+import Invitation from './component/Invitation';
 const App = () => {
   return (
     <div className='App'>
@@ -20,6 +21,7 @@ const App = () => {
           <Route path='/SITNovate' element={<SITNovate/>} />
           <Route path='/SITCodeSprint' element={<SITCodeSprint/>} />
           <Route path='/SITANK' element={<SITANK/>} />
+          <Route path='/invitation' element={<Invitation/>} />
           <Route path='/Sponsor' element={<Sponsor/>} />
           <Route path='/Contact' element={<Contact />} />
         </Routes>

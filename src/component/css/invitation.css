@@ -1,0 +1,25 @@
+.invitation{
+    margin: 0;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+
+.invitation h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+img{
+    width: 90%;
+    height: auto;
+    margin-top: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+#particles{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
