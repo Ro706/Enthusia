@@ -161,6 +161,7 @@ function Sponsor() {
         <img src="https://devfolio.co/blog/content/images/size/w1000/2021/04/ethindia-1.jpg" alt="Devfolio" className='Devfolio'/>
         <img src="https://cdn.freelogovectors.net/wp-content/uploads/2023/05/polygon-logo-freelogovectors.net_.png" alt="Devfolio" className='Devfolio'/>
         <img src="https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/logos/blue/Unstop-Logo-Blue-Small.jpg" alt="unstop" className='Devfolio' />
+        <img src="https://th.bing.com/th/id/OIP.3vcJIPdHh89wN6cNc7l5pwHaB-?rs=1&pid=ImgDetMain" alt="unstop" className='Devfolio' />
         <img src={pbCreation} alt="pbCreation" className="Devfolio" />
         <h2 className='text-center mt-5'>Hackathon Technical Sponsors</h2>
         <img src="https://claims.ieeebombay.org/IEEE-BS-Logo.png" alt="IEEE BOMBAY" className="Devfolio" />
