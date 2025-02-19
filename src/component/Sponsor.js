@@ -138,6 +138,7 @@ import React from 'react';
 import ParticlesComponent from './particles'; // Import ParticlesComponent for background
 import './css/sponsor.css'; // Import CSS for styling
 import pbCreation from './image/pbCreation.png';
+import h2o from './image/zeroH2o.jpg';
 
 function Sponsor() {
   return (
@@ -165,6 +166,8 @@ function Sponsor() {
         <img src={pbCreation} alt="pbCreation" className="Devfolio" />
         <h2 className='text-center mt-5'>Hackathon Technical Sponsors</h2>
         <img src="https://claims.ieeebombay.org/IEEE-BS-Logo.png" alt="IEEE BOMBAY" className="Devfolio" />
+        <h2>Hydration sponsored</h2>
+        <img src={h2o} alt="H2o" className='Devfolio' />
         </section>
     </div>
   )
