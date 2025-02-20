@@ -30,7 +30,7 @@ export default function Home() {
   }, []);
 
   function calculateTimeLeft() {
-    const eventDate = new Date("2025-02-20T13:49:30"); // Set your event date here
+    const eventDate = new Date("2025-02-20T13:50:30"); // Set your event date here
     const currentDate = new Date();
     const difference = eventDate - currentDate;
 
