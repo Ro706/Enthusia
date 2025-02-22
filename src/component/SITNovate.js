@@ -64,10 +64,10 @@ function SITNovate() {
             With exciting prizes up for grabs, <b>SITNovate</b> is the ultimate arena for coding enthusiasts, design aficionados, and problem-solvers to unleash their potential. Whether you're a seasoned developer or just starting out, <b>SITNovate</b> promises a memorable journey of innovation, teamwork, and discovery!
           </p>
         </div>
-         <h3>Round 1 Result</h3>
-        <a href="SITNovateRound1Resultfinal.pdf" download>
-          <button className="Register">Result</button>
-        </a>
+         {/* <h3>Round 1 Result</h3> */}
+        {/* <a href="SITNovateRound1Resultfinal.pdf" download> */}
+          {/* <button className="Register">Result</button> */}
+        {/* </a> */}
         {/* <h3>PPT submission</h3>
         <button className="Register" onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLScW6h51_-x0zPLMiE5ULamhXPIi1otojHTmiJGh3Dww-40v6Q/viewform", "_blank")}>
           Upload your PPT
@@ -127,23 +127,34 @@ function SITNovate() {
         </div>
 
         {/* PPT and Judging Criteria  */}
-        <div className="ppt-judging">
+        {/* <div className="ppt-judging"> */}
           {/* <h3>Problem Statements (round 1)</h3>
           <a href="Round-1ProblemStatements.pdf" download>
             <button className="Register">Problem Statements</button>
           </a> */}
-          <h3>SITnovate Rule Book</h3>
-          <a href="SITnovateRuleBook.pdf" download>
-            <button className="Register">Rule Book</button>
-          </a>
+          {/* <h3>SITnovate Rule Book</h3> */}
+          {/* <a href="SITnovateRuleBook.pdf" download> */}
+            {/* <button className="Register">Rule Book</button> */}
+          {/* </a> */}
 
-          <p>The judging criteria for the PPT round will be based on the following parameters:</p>
+          {/* <p>The judging criteria for the PPT round will be based on the following parameters:</p> */}
           
-          <a href="Event_Judging_Criteria.docx" download>
-            <button className="Register">Download Judging Criteria (Word)</button>
-          </a>
-        </div>
-
+          {/* <a href="Event_Judging_Criteria.docx" download> */}
+            {/* <button className="Register">Download Judging Criteria (Word)</button> */}
+          {/* </a> */}
+        {/* </div> */}
+        <section>
+          <h2>SITNovate Winner 2025</h2>
+          <div className="winner">
+            <div className="winner-image">
+              <img src="https://cdn-icons-png.flaticon.com/512/194/194938.png" alt="Winner" />
+            </div>
+            <div className="winner-details">
+              <h3>Winner Name</h3>
+              <p>Winner Description</p>
+            </div>
+          </div>
+        </section>
 
         <div className="highlights pt-3">
           <h2>Key Highlights of the Event</h2>
