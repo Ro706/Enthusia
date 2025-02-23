@@ -1,6 +1,7 @@
 import React from 'react';
 import './css/SITNovate.css';
 import ParticlesComponent from './particles';
+// import WinnerCard from './winner';
 
 function SITNovate() {
   const schedule = [
@@ -21,6 +22,33 @@ function SITNovate() {
     { id: 15, date: '20-02-25', time: '04:30 PM', event: 'Evaluation End', location: 'S-08' },
     { id: 16, date: '20-02-25', time: '5:00 PM', event: 'Top 5 Winners Announcement', location: 'S-08' }
   ];
+  // const winners = [
+  //   { 
+  //     id: 1, 
+  //     name: "Alex Johnson", 
+  //     team: "Aqua Innovators",
+  //     college: "GreenTech University",
+  //     description: "Innovated a sustainable water purification system.",
+  //     image: "https://www.atulhost.com/wp-content/uploads/2021/02/hackathon.png"
+  //   },
+  //   { 
+  //     id: 2, 
+  //     name: "Maya Patel", 
+  //     team: "EduAI Pioneers",
+  //     college: "Future Minds Institute",
+  //     description: "Developed an AI-powered education platform.",
+  //     image: "https://www.atulhost.com/wp-content/uploads/2021/02/hackathon.png"
+  //   },
+  //   { 
+  //     id: 3, 
+  //     name: "Jamal Khan", 
+  //     team: "Renewable Visionaries",
+  //     college: "EcoTech College",
+  //     description: "Created a low-cost renewable energy solution.",
+  //     image: "https://www.atulhost.com/wp-content/uploads/2021/02/hackathon.png"
+  //   }
+  // ];
+  
   const themes = [
     {
       title: "AI/ML",
@@ -64,14 +92,10 @@ function SITNovate() {
             With exciting prizes up for grabs, <b>SITNovate</b> is the ultimate arena for coding enthusiasts, design aficionados, and problem-solvers to unleash their potential. Whether you're a seasoned developer or just starting out, <b>SITNovate</b> promises a memorable journey of innovation, teamwork, and discovery!
           </p>
         </div>
-         {/* <h3>Round 1 Result</h3> */}
-        {/* <a href="SITNovateRound1Resultfinal.pdf" download> */}
-          {/* <button className="Register">Result</button> */}
-        {/* </a> */}
-        {/* <h3>PPT submission</h3>
-        <button className="Register" onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLScW6h51_-x0zPLMiE5ULamhXPIi1otojHTmiJGh3Dww-40v6Q/viewform", "_blank")}>
-          Upload your PPT
-        </button>  */}
+        <h3>Register</h3>
+        <button className="Register btn btn-primary btn-lg mb-4" onClick={() => window.open("https://docs.google.com/forms/d/e/1FAIpQLScW6h51_-x0zPLMiE5ULamhXPIi1otojHTmiJGh3Dww-40v6Q/viewform", "_blank")} disabled>
+        Apply Now
+        </button> 
         <ul className="pt-4 text-left text-lg  border border-gray-300 rounded-lg p-4 shadow-md">
           <h2>Important Notice:</h2>
           <p className='text-danger'>IT IS COMPULSORY FOR ALL MEMBERS TO REGISTER ON INSTERRA AI: <a href="https://insterra.ai/" target="_blank" rel="noreferrer">URL</a></p>
@@ -143,19 +167,7 @@ function SITNovate() {
             {/* <button className="Register">Download Judging Criteria (Word)</button> */}
           {/* </a> */}
         {/* </div> */}
-        <section>
-          <h2>SITNovate Winner 2025</h2>
-          <div className="winner">
-            <div className="winner-image">
-              <img src="https://cdn-icons-png.flaticon.com/512/194/194938.png" alt="Winner" />
-            </div>
-            <div className="winner-details">
-              <h3>Winner Name</h3>
-              <p>Winner Description</p>
-            </div>
-          </div>
-        </section>
-
+        {/* <WinnerCard/> */}
         <div className="highlights pt-3">
           <h2>Key Highlights of the Event</h2>
           <div className="button-list">
