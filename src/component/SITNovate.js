@@ -116,7 +116,7 @@ function SITNovate() {
     { name: 'Tufan Kilicaslan', title: 'Founder, Coding Event Software Solutions, Türkiye | IEEE Senior Member', linkedin: 'https://www.linkedin.com/in/tufankilicaslan/' },
     { name: 'Dhiraj Motghare', title: 'Director of Engineering - GlobalLogic', linkedin: 'https://www.linkedin.com/in/dhirajmotghare/' },
     { name: 'Mohit Vyas', title: 'Software Engineer, Accenture', linkedin: 'https://www.linkedin.com/in/mohitvyas72/' },
-    { name: 'Nilima Rao', title: 'Persistent', linkedin: '#' },
+    { name: 'Nilima Rao', title: 'Persistent', linkedin: '# ' },
     { name: 'Nidhi Shingade', title: 'Technical Consultant, Perficient Inc, Nagpur, India', linkedin: 'https://www.linkedin.com/in/nidhi-shingade/' },
     { name: 'Dr. Ravindra Jogekar', title: 'Executive Member ACM Nagpur', linkedin: 'https://www.linkedin.com/in/dr-ravindra-jogekar-313b21b9/' },
     { name: 'Bhushan Netke', title: 'Consultant, Global Logic Software Technologies', linkedin: 'https://www.linkedin.com/in/bhushan-netke-53447267/' }
