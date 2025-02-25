@@ -1,9 +1,50 @@
 import React from 'react';
 import './css/SITNovate.css';
 import ParticlesComponent from './particles';
+import { FaLinkedin } from 'react-icons/fa6';
+
 // import WinnerCard from './winner';
 
 function SITNovate() {
+  const winners = [
+    {
+      place: '1st',
+      team: 'Hackhorizon',
+      teamNumber: 37,
+      institution: 'Suryodaya College of Engineering and Technology, Nagpur',
+      members: ['Kunal Panche', 'Piyush Chafle', 'Siddharth Parihar']
+    },
+    {
+      place: '2nd',
+      team: 'BLUEBERRY',
+      teamNumber: 41,
+      institution: 'IIIT Nagpur',
+      members: ['Shivaprasad Gowda', 'Shreya Rai', 'Leela Sai']
+    },
+    {
+      place: '3rd',
+      team: 'Switch',
+      teamNumber: 47,
+      institution: 'Army Institute of Technology, Pune',
+      members: ['Sangam Kumar Chaudhary', 'Karan Singh', 'Prem Maity']
+    },
+    {
+      place: '4th',
+      team: 'Devbasullah',
+      teamNumber: 29,
+      institution: 'Symbiosis Institute of Technology, Nagpur',
+      members: ['Abdullah Master', 'Abbas Jabalpurwala', 'Devyani Balki']
+    },
+    {
+      place: '5th',
+      team: 'TheCodeBreakers',
+      teamNumber: 24,
+      institution: 'RBU Nagpur',
+      members: ['Amber Shukla', 'Vivian Demello', 'Aditya Hajari']
+    }
+  ];
+
+
   const schedule = [
     { id: 1, date: '14-02-25', time: '11:59 PM', event: 'Registrations Closed', location: '-' },
     { id: 2, date: '14-02-25', time: '11:59 AM', event: 'Problem Statements for Round-1 Declared', location: 'Online' },
@@ -71,7 +112,16 @@ function SITNovate() {
       icon: "https://cdn-icons-png.flaticon.com/512/2821/2821637.png"
     }
   ];
-
+  const juryMembers = [
+    { name: 'Tufan Kilicaslan', title: 'Founder, Coding Event Software Solutions, Türkiye | IEEE Senior Member', linkedin: 'https://www.linkedin.com/in/tufankilicaslan/' },
+    { name: 'Dhiraj Motghare', title: 'Director of Engineering - GlobalLogic', linkedin: 'https://www.linkedin.com/in/dhirajmotghare/' },
+    { name: 'Mohit Vyas', title: 'Software Engineer, Accenture', linkedin: 'https://www.linkedin.com/in/mohitvyas72/' },
+    { name: 'Nilima Rao', title: 'Persistent', linkedin: '#' },
+    { name: 'Nidhi Shingade', title: 'Technical Consultant, Perficient Inc, Nagpur, India', linkedin: 'https://www.linkedin.com/in/nidhi-shingade/' },
+    { name: 'Dr. Ravindra Jogekar', title: 'Executive Member ACM Nagpur', linkedin: 'https://www.linkedin.com/in/dr-ravindra-jogekar-313b21b9/' },
+    { name: 'Bhushan Netke', title: 'Consultant, Global Logic Software Technologies', linkedin: 'https://www.linkedin.com/in/bhushan-netke-53447267/' }
+  ];
+  
   return (
     <div className="sitnovate-container">
       <ParticlesComponent id="particles" />
@@ -149,25 +199,59 @@ function SITNovate() {
             </table>
           </div>
         </div>
+          {/* Winner declaration  */}
+          <h2 className="text-3xl font-bold text-center mb-8">SITNovate 2025 Winners</h2>
+          <img src="./image/winner.JPG" alt="winner group" />
+          <div className="p-6 bg-gray-900 text-white min-h-screen">
+      <div className="overflow-x-auto">
+      <table className="min-w-full bg-gray-800 rounded-2xl shadow-lg overflow-hidden text-center">
+        <thead>
+          <tr>
+            <th className="px-4 py-2">Place</th>
+            <th className="px-4 py-2">Team Number</th>
+            <th className="px-4 py-2">Team Name</th>
+            <th className="px-4 py-2 text-left">Institution</th>
+            <th className="px-4 py-2 text-left">Members</th>
+          </tr>
+        </thead>
+        <tbody>
+          {winners.map((winner) => (
+            <tr key={winner.teamNumber}>
+              <td className="border px-4 py-2">{winner.place}</td>
+              <td className="border px-4 py-2">{winner.teamNumber}</td>
+              <td className="border px-4 py-2">{winner.team}</td>
+              <td className="border px-4 py-2 text-left" align='left'>{winner.institution}</td>
+              <td className="border px-4 py-2 text-left" align='left'>{winner.members.join(', ')}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+      </div>
+      <br /><br /><br />
+      <h2 className="text-3xl font-bold text-center my-8">👨‍⚖️ Our Honorable Jury Members 👩‍⚖️</h2>
+      <table className="min-w-full bg-gray-800 rounded-2xl shadow-lg overflow-hidden text-center" align='center'>
+        {/* <thead>
+          <tr>
+            <th className="px-4 py-2">Name</th>
+            <th className="px-4 py-2 text-left">Title</th>
+          </tr>
+        </thead> */}
+        <tbody>
+          {juryMembers.map((jury) => (
+            <tr key={jury.linkedin}>
+              <td className="border px-4 py-2">{jury.name}</td>
+              <td className="border px-4 py-2 text-left" align='left'>
+                {jury.title}{' '}
+                <a href={jury.linkedin} target="_blank" rel="noopener noreferrer" className="text-blue-400 inline-flex items-center">
+                  <FaLinkedin className="ml-2" /> 
+                </a>
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
 
-        {/* PPT and Judging Criteria  */}
-        {/* <div className="ppt-judging"> */}
-          {/* <h3>Problem Statements (round 1)</h3>
-          <a href="Round-1ProblemStatements.pdf" download>
-            <button className="Register">Problem Statements</button>
-          </a> */}
-          {/* <h3>SITnovate Rule Book</h3> */}
-          {/* <a href="SITnovateRuleBook.pdf" download> */}
-            {/* <button className="Register">Rule Book</button> */}
-          {/* </a> */}
-
-          {/* <p>The judging criteria for the PPT round will be based on the following parameters:</p> */}
-          
-          {/* <a href="Event_Judging_Criteria.docx" download> */}
-            {/* <button className="Register">Download Judging Criteria (Word)</button> */}
-          {/* </a> */}
-        {/* </div> */}
-        {/* <WinnerCard/> */}
         <div className="highlights pt-3">
           <h2>Key Highlights of the Event</h2>
           <div className="button-list">
