@@ -201,7 +201,7 @@ function SITNovate() {
         </div>
           {/* Winner declaration  */}
           <h2 className="text-3xl font-bold text-center mb-8">SITNovate 2025 Winners</h2>
-          <img src="https://github.com/Ro706/Enthusia/blob/main/public/image/winner.jpg" alt="winner group" />
+          <img src="https://github.com/Ro706/Enthusia/blob/main/public/image/winner.jpg?raw=true" alt="winner group" />
           <div className="p-6 bg-gray-900 text-white min-h-screen">
       <div className="overflow-x-auto">
       <table className="min-w-full bg-gray-800 rounded-2xl shadow-lg overflow-hidden text-center">
