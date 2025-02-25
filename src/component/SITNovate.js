@@ -173,7 +173,7 @@ function SITNovate() {
         </ul>
 
         {/* Table with Center Alignment */}
-        <div className="overflow-x-auto p-4">
+        <div className="overflow-x-auto p-4" align='center'>
           <div className="flex justify-center">
             <table className="min-w-full border border-gray-300 text-center text-sm text-gray-600">
               <thead>
